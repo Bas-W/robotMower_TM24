@@ -14,3 +14,13 @@ Robot lawn mower project for school.
 |QMC5883 Kompas|2 I2C|0|1|
 |Bumper Microswitch|1|0|2|
 |Blades motor|5|0|1
+
+
+# Features
+- [ ] Driving
+- [ ] Collision Avoidance
+- [ ] Easily Controllable Interface (lcd/oled etc)
+- [ ] Main Power switch
+- [ ] Rain Detection
+- [ ] Current Measuring for wheels
+- [ ] Current Measuring for Blade
