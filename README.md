@@ -24,3 +24,7 @@ Robot lawn mower project for school.
 - [ ] Rain Detection
 - [ ] Current Measuring for wheels
 - [ ] Current Measuring for Blade
+- [ ] Internal 5V Regulation
+- [ ] Internal 3V3 Regulation
+- [ ] Custom PCB
+- [ ] Small Formfactor
