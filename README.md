@@ -33,3 +33,6 @@ Robot lawn mower project for school.
 - [ ] Temperature sensors for motors
 - [ ] Temperature sensors for motor drivers
 - [ ] Power supply -> 3S/4S LiPo pack ?
+- [ ] GPS (u-blox module)
+- [ ] Extra I-O for expansions
+- [ ] Screw terminals
