@@ -29,3 +29,7 @@ Robot lawn mower project for school.
 - [ ] Custom PCB
 - [ ] Small Formfactor
 - [ ] Power cutoff / emergency stop button (in case of rogue robot event)
+- [ ] USB-connector for programming & monitoring (USB-B / USB-C)
+- [ ] Temperature sensors for motors
+- [ ] Temperature sensors for motor drivers
+- [ ] Power supply -> 3S/4S LiPo pack ?
