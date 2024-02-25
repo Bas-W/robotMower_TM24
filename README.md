@@ -28,3 +28,4 @@ Robot lawn mower project for school.
 - [ ] Internal 3V3 Regulation
 - [ ] Custom PCB
 - [ ] Small Formfactor
+- [ ] Power cutoff / emergency stop button (in case of rogue robot event)
