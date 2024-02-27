@@ -28,12 +28,14 @@ Robot lawn mower project for school.
 - [ ] Internal 3V3 Regulation
 - [ ] Custom PCB
 - [ ] Small Formfactor
-- [ ] Power cutoff / emergency stop button (in case of rogue robot event)
+- [ ] Power cutoff relay to take away power to motors / emergency stop button (in case of rogue robot event) 
 - [ ] USB-connector for programming & monitoring (USB-B / USB-C)
-- [ ] Temperature sensors for motors
-- [ ] Temperature sensors for motor drivers
+- [ ] Temperature sensors for motors (expansion)
+- [ ] Temperature sensors for motor drivers (expansion)
 - [ ] Power supply -> 3S/4S LiPo pack ?
 - [ ] Battery Charging
-- [ ] GPS (u-blox module)
+- [ ] GPS (u-blox module) (expansion)
 - [ ] Extra I-O for expansions
-- [ ] Screw terminals
+- [ ] Screw terminals or JST
+- [ ] Tilt sensor/switches 
+- [ ] Perimeter wire (expansion)
