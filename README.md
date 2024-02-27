@@ -39,3 +39,4 @@ Robot lawn mower project for school.
 - [ ] Screw terminals or JST
 - [ ] Tilt sensor/switches 
 - [ ] Perimeter wire (expansion)
+- [ ] Seperate boards for power, µc, sensors - connected via [5v,3v3,I²C]bus
