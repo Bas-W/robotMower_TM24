@@ -2,7 +2,7 @@
 Robot lawn mower project for school.
 
 # Schematics, PCB
-Schematics, along with footprints, can be found under <b>*/Schematics*</b>.
+Schematics, along with footprints, can be found under [<b>*/Schematics*</b>](/Schematics).
 These are designed in Eagle.
 
 # Code
