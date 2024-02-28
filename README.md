@@ -20,6 +20,7 @@ Robot lawn mower project for school.
 |LM1117 T5.0 LDO|5V Regulation|0|0|1|
 |LM1117 T3.3 LDO|3V Regulation|0|0|1|
 |Water Sensor|Rain Detection|0|1|1|
+|ATtiny84|Breakout µControllers|2 I2C|0|2|
 
 # Features
 - [ ] Driving
