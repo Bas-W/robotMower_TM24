@@ -20210,7 +20210,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 <sheet>
 <plain>
-<text x="162.56" y="17.78" size="3.81" layer="94">ATtiny84 HC-SR04 MIM</text>
+<text x="162.56" y="17.78" size="3.81" layer="94">ATtiny84 Battery V Sens</text>
 <text x="182.88" y="10.16" size="3.81" layer="94">1</text>
 <text x="243.84" y="10.16" size="3.81" layer="94">1</text>
 </plain>
