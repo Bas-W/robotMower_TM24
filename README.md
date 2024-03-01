@@ -13,5 +13,6 @@ A list of used components and modules will be made when the design is finalized.
 
 #I²C Adress List
 |Part|Address|
+|---|---|
 |A-sens, Motor L| 1000000|
 |A-sens, Motor R| 1000001|
