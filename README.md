@@ -16,3 +16,6 @@ A list of used components and modules will be made when the design is finalized.
 |---|---|
 |Current Sensor, Motor L| 1000000|
 |Current Sensor, Motor R| 1000001|
+|Current Sensor, Bat in|1000010|
+|Current Sensor, 5V|1000011|
+|Current Sensor, 3V3|1000100|
