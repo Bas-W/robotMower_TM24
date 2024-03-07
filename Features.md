@@ -51,7 +51,7 @@ Robot lawn mower project for school.
 - [ ] Tilt sensor/switches 
 - [ ] Perimeter wire (expansion)
 - [ ] Seperate boards - connected via [5v,3v3,I²C]bus
-  - µC
+  - MCU
   - Power
   - Sensors
   - Motor driver
