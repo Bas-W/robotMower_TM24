@@ -1,5 +1,7 @@
 # How to Program the ATtiny84
 
+[example](https://www.instructables.com/Arduino-Uno-to-Program-ATTINY84-Arduino-V-185/)
+
 ## Setup
 Additional boards: http://drazzy.com/package_drazzy.com_index.json
 Upload ArduinoISP to the Uno
