@@ -1,0 +1,38 @@
+Part;Value;Device;Package;Description;ARROW_PART_NUMBER;ARROW_PRICE-STOCK;DESCRIPTION;HEIGHT;MANUFACTURER_NAME;MANUFACTURER_PART_NUMBER;MOUSER2_PART_NUMBER;MOUSER2_PRICE-STOCK;MOUSER_PART_NUMBER;MOUSER_PRICE-STOCK;POPULARITY;SPICEPREFIX
+BAT-IN;1747993;1747993;1747993;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;;;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;12.15mm;Phoenix Contact;1747993;;;651-1747993;https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1747993?qs=cq3Rj917t3li0%2FrJTXaRgg%3D%3D;;
+BAT-OUT1;1747993;1747993;1747993;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;;;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;12.15mm;Phoenix Contact;1747993;;;651-1747993;https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1747993?qs=cq3Rj917t3li0%2FrJTXaRgg%3D%3D;;
+BAT-OUT2;1747993;1747993;1747993;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;;;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard;12.15mm;Phoenix Contact;1747993;;;651-1747993;https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1747993?qs=cq3Rj917t3li0%2FrJTXaRgg%3D%3D;;
+C1;0.1uF;C-EU025-025X050;C025-025X050;CAPACITOR, European symbol;;;;;;;;;;;65;C
+C2;10uF;CPOL-EUE5-10.5;E5-10,5;POLARIZED CAPACITOR, European symbol;;;;;;;;;;;23;C
+C3;0.1uF;C-EU025-030X050;C025-030X050;CAPACITOR, European symbol;;;;;;;;;;;14;C
+C4;0.1uF;C-EU025-030X050;C025-030X050;CAPACITOR, European symbol;;;;;;;;;;;14;C
+C5;0.1uF;C-EU025-030X050;C025-030X050;CAPACITOR, European symbol;;;;;;;;;;;14;C
+C6;0.1uF;C-EU025-030X050;C025-030X050;CAPACITOR, European symbol;;;;;;;;;;;14;C
+C7;10uF;CPOL-EUE5-10.5;E5-10,5;POLARIZED CAPACITOR, European symbol;;;;;;;;;;;23;C
+C8;10uF;CPOL-EUE5-10.5;E5-10,5;POLARIZED CAPACITOR, European symbol;;;;;;;;;;;23;C
+C9;10uF;CPOL-EUE5-10.5;E5-10,5;POLARIZED CAPACITOR, European symbol;;;;;;;;;;;23;C
+C10;10uF;CPOL-EUE5-10.5;E5-10,5;POLARIZED CAPACITOR, European symbol;;;;;;;;;;;23;C
+H1;MOUNT-PAD-ROUND3.3;MOUNT-PAD-ROUND3.3;3,3-PAD;MOUNTING PAD, round;;;;;;;;;;;1;
+H2;MOUNT-PAD-ROUND3.3;MOUNT-PAD-ROUND3.3;3,3-PAD;MOUNTING PAD, round;;;;;;;;;;;1;
+H3;MOUNT-PAD-ROUND3.3;MOUNT-PAD-ROUND3.3;3,3-PAD;MOUNTING PAD, round;;;;;;;;;;;1;
+H4;MOUNT-PAD-ROUND3.3;MOUNT-PAD-ROUND3.3;3,3-PAD;MOUNTING PAD, round;;;;;;;;;;;1;
+IC1;LM1117T-5.0_NOPB;LM1117T-5.0_NOPB;TO254P470X1028X1955-3P;Space saving 800-mA low-dropout linear regulator with internal current limit;;;Space saving 800-mA low-dropout linear regulator with internal current limit;4.7mm;Texas Instruments;LM1117T-5.0/NOPB;926-LM1117T-50/NOPB;https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM1117T-50%2FNOPB;;;;
+IC2;LM1117T-3.3_NOPB;LM1117T-3.3_NOPB;TO254P470X1028X1955-3P;800mA,3.3V,LDO Voltage Reg.,LM1117T-3.3 Texas Instruments LM1117T-3.3/NOPB, LDO Voltage Regulator, 800mA, 3.3 V;;;800mA,3.3V,LDO Voltage Reg.,LM1117T-3.3 Texas Instruments LM1117T-3.3/NOPB, LDO Voltage Regulator, 800mA, 3.3 V;4.7mm;Texas Instruments;LM1117T-3.3/NOPB;;;;;;
+IC3;INA219BIDR;INA219BIDR;SOIC127P600X175-8N;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;;;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;1.75mm;Texas Instruments;INA219BIDR;;;595-INA219BIDR;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA219BIDR?qs=1WmUhT%2FVMINyGsXNJcdD5Q%3D%3D;;
+IC4;INA219BIDR;INA219BIDR;SOIC127P600X175-8N;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;;;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;1.75mm;Texas Instruments;INA219BIDR;;;595-INA219BIDR;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA219BIDR?qs=1WmUhT%2FVMINyGsXNJcdD5Q%3D%3D;;
+IC5;INA219BIDR;INA219BIDR;SOIC127P600X175-8N;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;;;26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor;1.75mm;Texas Instruments;INA219BIDR;;;595-INA219BIDR;https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA219BIDR?qs=1WmUhT%2FVMINyGsXNJcdD5Q%3D%3D;;
+JST-XH1;I2C-BUS;JST-XH-05-PIN-LONG-PAD;JST-XH-05-PACKAGE-LONG-PAD;JST XH Connector 2 Pin;;;;;;;;;;;;
+JST-XH2;I2C-BUS;JST-XH-05-PIN-LONG-PAD;JST-XH-05-PACKAGE-LONG-PAD;JST XH Connector 2 Pin;;;;;;;;;;;;
+JST-XH3;BAT-BALANCE;JST-XH-04-PIN-LONG-PAD;JST-XH-04-PACKAGE-LONG-PAD;JST XH Connector 2 Pin;;;;;;;;;;;;
+PWR-3V3;GN;LED5MM;LED5MM;LED;;;;;;;;;;;;
+PWR-5V;GN;LED5MM;LED5MM;LED;;;;;;;;;;;;
+R1;12m;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R2;tbd;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R3;tbd;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R4;10k;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R5;220;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R6;220;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+R7;220;R-EU_0204/7;0204/7;RESISTOR, European symbol;;;;;;;;;;;79;R
+RESET;;SWITCH_PUSHBUTTONEVQ-PE;TACT_PANA-EVQ;Buttons;;;;;;;;;;;;
+STATUS;RD;LED5MM;LED5MM;LED;;;;;;;;;;;;
+U$1;ATTINY84DIP;ATTINY84DIP;ATTINY84(DIP);;;;;;;;;;;;;
