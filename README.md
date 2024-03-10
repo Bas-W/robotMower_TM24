@@ -2,7 +2,7 @@
 Robot lawn mower project for school.
 
 # Features
-A list of features can be found under [<b>/Features</b>](/Features.md)
+A list of features can be found under [<b>*/Features*</b>](/Features.md)
 
 # Schematics, PCB
 Schematics, along with footprints, can be found under [<b>*/Schematics*</b>](/Schematics).
