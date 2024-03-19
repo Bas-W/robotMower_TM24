@@ -4,7 +4,7 @@
 
 ## Setup
 Additional boards: http://drazzy.com/package_drazzy.com_index.json
-Upload ArduinoISP to the Uno
+Upload the ArduinoISP sketch from the example sketches to the Uno.
 
 ## Connections to UNO
 |ATtiny84|UNO|
@@ -27,3 +27,5 @@ Chip: ATtiny84
 Clock: 8MHz Internal
 Bootloader: Burn Bootloader
 Programmer: Arduino as ISP
+
+To program the attiny you have to use *Upload Using Programmer* or shortcut *Ctrl + Shift + U* otherwise the preselected programmer won't be used.

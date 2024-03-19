@@ -1,6 +1,7 @@
 # How to Program the ESP32S3 Wroom 1 N8R8
 
 ## Connections to ESP32 Dev module
+### UART
 |ESP32S3|ESP32 Dev Module|
 |-------|----------------|
 |3V3|3V3|
@@ -9,6 +10,10 @@
 |TX|TX|
 
 Connect the ESP32 Dev Module's EN pin to GND.
+
+### USB
+Or you can use the USB-B jack to connect straight to your laptop.
+Don't forget to enable *USB CDC On Boot* in the tools menu.
 
 ## Programming ESP32S3
 Board: ESP32S3 Dev Module
