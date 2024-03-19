@@ -1,0 +1,7 @@
+Qty;Ultrasonic;MCU;Motor;Power;Reserve;Value;Device;Package;Parts;Description;MANUFACTURER_NAME;MANUFACTURER_PART_NUMBER;Reichelt_PART_NUMBER
+7;3;;;1;3;JST XH 4-PIN;JST-XH-04-PIN-LONG-PAD ;JST-XH-04-PACKAGE-LONG-PAD;;;;;JST XH4P ST
+7;3;;;1;3;Female;;;;;;;JST XH4P BU
+15;2;4;2;2;5;JST XH 5-PIN;JST-XH-05-PIN-LONG-PAD ;JST-XH-05-PACKAGE-LONG-PAD;;;;;JST XH5P ST
+15;2;4;2;2;5;Female;;;;;;;JST XH5P BU
+66;22;20;10;14;34;Krimp Klipkes;;;;;;;JST XH CKB
+;;;;;;;;;;;;;
