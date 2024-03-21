@@ -12,11 +12,8 @@
 // Set I2C bus to use: Wire, Wire1, etc.
 #define WIRE Wire
 
-#define SDA_PIN 9  // Redefine SDA pin to GPIO 18
-#define SCL_PIN 8  // Redefine SCL pin to GPIO 19
-
 void setup() {
-  Wire.begin(SDA_PIN, SCL_PIN);
+  Wire.begin();
 
   Serial.begin(9600);
   while (!Serial)
