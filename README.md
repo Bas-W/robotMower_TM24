@@ -17,8 +17,8 @@ A list of used components and modules will be made when the design is finalized.
 # I²C Adress List
 |Part|Address|
 |----|-------|
-|Current Sensor, Motor L| 1000000|
-|Current Sensor, Motor R| 1000001|
-|Current Sensor, Bat in|1000010|
-|Current Sensor, 5V|1000011|
-|Current Sensor, 3V3|1000100|
+|Current Sensor, Motor L|01000000 = 0x40|
+|Current Sensor, Motor R|01000001 = 0x41|
+|Current Sensor, Bat in|01000010 = 0x42|
+|Current Sensor, 5V|01000011 = 0x43|
+|Current Sensor, 3V3|01000100 = 0x44|
