@@ -1,0 +1,3272 @@
+
+C:\Users\nickb\AppData\Local\Temp\arduino\sketches\E455EB2A7291443092F4B5433267CAFA/slave_sender.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+       0:	29 c0       	rjmp	.+82     	; 0x54 <__ctors_end>
+       2:	43 c0       	rjmp	.+134    	; 0x8a <__bad_interrupt>
+       4:	42 c0       	rjmp	.+132    	; 0x8a <__bad_interrupt>
+       6:	41 c0       	rjmp	.+130    	; 0x8a <__bad_interrupt>
+       8:	40 c0       	rjmp	.+128    	; 0x8a <__bad_interrupt>
+       a:	3f c0       	rjmp	.+126    	; 0x8a <__bad_interrupt>
+       c:	3e c0       	rjmp	.+124    	; 0x8a <__bad_interrupt>
+       e:	3d c0       	rjmp	.+122    	; 0x8a <__bad_interrupt>
+      10:	3c c0       	rjmp	.+120    	; 0x8a <__bad_interrupt>
+      12:	3b c0       	rjmp	.+118    	; 0x8a <__bad_interrupt>
+      14:	3a c0       	rjmp	.+116    	; 0x8a <__bad_interrupt>
+      16:	65 c4       	rjmp	.+2250   	; 0x8e2 <__vector_11>
+      18:	38 c0       	rjmp	.+112    	; 0x8a <__bad_interrupt>
+      1a:	37 c0       	rjmp	.+110    	; 0x8a <__bad_interrupt>
+      1c:	36 c0       	rjmp	.+108    	; 0x8a <__bad_interrupt>
+      1e:	5b c1       	rjmp	.+694    	; 0x2d6 <__vector_15>
+      20:	a2 c1       	rjmp	.+836    	; 0x366 <__vector_16>
+
+00000022 <__trampolines_end>:
+__trampolines_start():
+      22:	00 00       	nop
+      24:	01 02       	muls	r16, r17
+      26:	03 04       	cpc	r0, r3
+      28:	00 00       	nop
+      2a:	00 00       	nop
+      2c:	00 00       	nop
+	...
+
+0000002f <digital_pin_to_bit_mask_PGM>:
+      2f:	01 02 04 80 40 20 10 08 04 02 01 08                 ....@ ......
+
+0000003b <digital_pin_to_port_PGM>:
+      3b:	02 02 02 01 01 01 01 01 01 01 01 02                 ............
+
+00000047 <port_to_output_PGM>:
+      47:	00 00 3b 00 38 00                                   ..;.8.
+
+0000004d <port_to_mode_PGM>:
+      4d:	00 00 3a 00 37 00 00                                ..:.7..
+
+00000054 <__ctors_end>:
+__dtors_end():
+      54:	11 24       	eor	r1, r1
+      56:	1f be       	out	0x3f, r1	; 63
+      58:	cf e5       	ldi	r28, 0x5F	; 95
+      5a:	d2 e0       	ldi	r29, 0x02	; 2
+      5c:	de bf       	out	0x3e, r29	; 62
+      5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_copy_data>:
+__do_copy_data():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+      60:	10 e0       	ldi	r17, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+      62:	a0 e6       	ldi	r26, 0x60	; 96
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+      64:	b0 e0       	ldi	r27, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+      66:	e8 ef       	ldi	r30, 0xF8	; 248
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+      68:	f1 e1       	ldi	r31, 0x11	; 17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+      6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+      6c:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+      6e:	0d 92       	st	X+, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+      70:	a0 37       	cpi	r26, 0x70	; 112
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+      72:	b1 07       	cpc	r27, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+      74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
+
+00000076 <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+      76:	20 e0       	ldi	r18, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+      78:	a0 e7       	ldi	r26, 0x70	; 112
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+      7a:	b0 e0       	ldi	r27, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+      7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+      7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+      80:	a1 3b       	cpi	r26, 0xB1	; 177
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+      82:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+      84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+.do_clear_bss_start():
+      86:	29 d4       	rcall	.+2130   	; 0x8da <main>
+      88:	b5 c8       	rjmp	.-3734   	; 0xfffff1f4 <__eeprom_end+0xff7ef1f4>
+
+0000008a <__bad_interrupt>:
+__vector_1():
+      8a:	ba cf       	rjmp	.-140    	; 0x0 <__vectors>
+
+0000008c <requestEvent()>:
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:26
+  middleValue = random(10, 51);
+  rightValue = random(101, 205);
+  delay(100);
+}
+
+void requestEvent() {
+      8c:	cf 93       	push	r28
+      8e:	df 93       	push	r29
+      90:	cd b7       	in	r28, 0x3d	; 61
+      92:	de b7       	in	r29, 0x3e	; 62
+      94:	6e 97       	sbiw	r28, 0x1e	; 30
+      96:	0f b6       	in	r0, 0x3f	; 63
+      98:	f8 94       	cli
+      9a:	de bf       	out	0x3e, r29	; 62
+      9c:	0f be       	out	0x3f, r0	; 63
+      9e:	cd bf       	out	0x3d, r28	; 61
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:27
+  digitalWrite(rightLed, HIGH);
+      a0:	61 e0       	ldi	r22, 0x01	; 1
+      a2:	81 e8       	ldi	r24, 0x81	; 129
+      a4:	0b d5       	rcall	.+2582   	; 0xabc <digitalWrite>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:29
+
+  String leftString;
+      a6:	6d e6       	ldi	r22, 0x6D	; 109
+      a8:	70 e0       	ldi	r23, 0x00	; 0
+      aa:	ce 01       	movw	r24, r28
+      ac:	49 96       	adiw	r24, 0x19	; 25
+      ae:	18 d3       	rcall	.+1584   	; 0x6e0 <String::String(char const*)>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:30
+  String middleString;
+      b0:	6d e6       	ldi	r22, 0x6D	; 109
+      b2:	70 e0       	ldi	r23, 0x00	; 0
+      b4:	ce 01       	movw	r24, r28
+      b6:	43 96       	adiw	r24, 0x13	; 19
+      b8:	13 d3       	rcall	.+1574   	; 0x6e0 <String::String(char const*)>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:31
+  String rightString;
+      ba:	6d e6       	ldi	r22, 0x6D	; 109
+      bc:	70 e0       	ldi	r23, 0x00	; 0
+      be:	ce 01       	movw	r24, r28
+      c0:	0d 96       	adiw	r24, 0x0d	; 13
+      c2:	0e d3       	rcall	.+1564   	; 0x6e0 <String::String(char const*)>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:33
+
+  if (leftValue < 100) {
+      c4:	60 91 74 00 	lds	r22, 0x0074	; 0x800074 <leftValue>
+      c8:	70 91 75 00 	lds	r23, 0x0075	; 0x800075 <leftValue+0x1>
+      cc:	64 36       	cpi	r22, 0x64	; 100
+      ce:	71 05       	cpc	r23, r1
+      d0:	cc f4       	brge	.+50     	; 0x104 <requestEvent()+0x78>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:34
+    leftString = "0" + String(leftValue);
+      d2:	4a e0       	ldi	r20, 0x0A	; 10
+      d4:	ce 01       	movw	r24, r28
+      d6:	07 96       	adiw	r24, 0x07	; 7
+      d8:	20 d3       	rcall	.+1600   	; 0x71a <String::String(int, unsigned char)>
+_ZN15StringSumHelperC4EPKc():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:217
+
+class StringSumHelper : public String
+{
+public:
+  StringSumHelper(const String &s) : String(s) {}
+  StringSumHelper(const char *p) : String(p) {}
+      da:	6c e6       	ldi	r22, 0x6C	; 108
+      dc:	70 e0       	ldi	r23, 0x00	; 0
+      de:	ce 01       	movw	r24, r28
+      e0:	01 96       	adiw	r24, 0x01	; 1
+      e2:	fe d2       	rcall	.+1532   	; 0x6e0 <String::String(char const*)>
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:34
+      e4:	be 01       	movw	r22, r28
+      e6:	69 5f       	subi	r22, 0xF9	; 249
+      e8:	7f 4f       	sbci	r23, 0xFF	; 255
+      ea:	ce 01       	movw	r24, r28
+      ec:	01 96       	adiw	r24, 0x01	; 1
+      ee:	cc d3       	rcall	.+1944   	; 0x888 <operator+(StringSumHelper const&, String const&)>
+      f0:	bc 01       	movw	r22, r24
+      f2:	ce 01       	movw	r24, r28
+      f4:	49 96       	adiw	r24, 0x19	; 25
+      f6:	76 d3       	rcall	.+1772   	; 0x7e4 <String::operator=(String const&)>
+_ZN15StringSumHelperD4Ev():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:213
+  #if __cplusplus >= 201103L || defined(__GXX_EXPERIMENTAL_CXX0X__)
+  void move(String &rhs);
+  #endif
+};
+
+class StringSumHelper : public String
+      f8:	ce 01       	movw	r24, r28
+      fa:	01 96       	adiw	r24, 0x01	; 1
+      fc:	89 d2       	rcall	.+1298   	; 0x610 <String::~String()>
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:34
+      fe:	ce 01       	movw	r24, r28
+     100:	07 96       	adiw	r24, 0x07	; 7
+     102:	86 d2       	rcall	.+1292   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:37
+  }
+
+  if (middleValue < 100) {
+     104:	60 91 72 00 	lds	r22, 0x0072	; 0x800072 <middleValue>
+     108:	70 91 73 00 	lds	r23, 0x0073	; 0x800073 <middleValue+0x1>
+     10c:	64 36       	cpi	r22, 0x64	; 100
+     10e:	71 05       	cpc	r23, r1
+     110:	cc f4       	brge	.+50     	; 0x144 <requestEvent()+0xb8>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:38
+    middleString = "0" + String(middleValue);
+     112:	4a e0       	ldi	r20, 0x0A	; 10
+     114:	ce 01       	movw	r24, r28
+     116:	07 96       	adiw	r24, 0x07	; 7
+     118:	00 d3       	rcall	.+1536   	; 0x71a <String::String(int, unsigned char)>
+_ZN15StringSumHelperC4EPKc():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:217
+{
+public:
+  StringSumHelper(const String &s) : String(s) {}
+  StringSumHelper(const char *p) : String(p) {}
+     11a:	6c e6       	ldi	r22, 0x6C	; 108
+     11c:	70 e0       	ldi	r23, 0x00	; 0
+     11e:	ce 01       	movw	r24, r28
+     120:	01 96       	adiw	r24, 0x01	; 1
+     122:	de d2       	rcall	.+1468   	; 0x6e0 <String::String(char const*)>
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:38
+     124:	be 01       	movw	r22, r28
+     126:	69 5f       	subi	r22, 0xF9	; 249
+     128:	7f 4f       	sbci	r23, 0xFF	; 255
+     12a:	ce 01       	movw	r24, r28
+     12c:	01 96       	adiw	r24, 0x01	; 1
+     12e:	ac d3       	rcall	.+1880   	; 0x888 <operator+(StringSumHelper const&, String const&)>
+     130:	bc 01       	movw	r22, r24
+     132:	ce 01       	movw	r24, r28
+     134:	43 96       	adiw	r24, 0x13	; 19
+     136:	56 d3       	rcall	.+1708   	; 0x7e4 <String::operator=(String const&)>
+_ZN15StringSumHelperD4Ev():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:213
+  #if __cplusplus >= 201103L || defined(__GXX_EXPERIMENTAL_CXX0X__)
+  void move(String &rhs);
+  #endif
+};
+
+class StringSumHelper : public String
+     138:	ce 01       	movw	r24, r28
+     13a:	01 96       	adiw	r24, 0x01	; 1
+     13c:	69 d2       	rcall	.+1234   	; 0x610 <String::~String()>
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:38
+     13e:	ce 01       	movw	r24, r28
+     140:	07 96       	adiw	r24, 0x07	; 7
+     142:	66 d2       	rcall	.+1228   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:41
+  }
+
+  rightString = String(rightValue);
+     144:	60 91 70 00 	lds	r22, 0x0070	; 0x800070 <__data_end>
+     148:	70 91 71 00 	lds	r23, 0x0071	; 0x800071 <__data_end+0x1>
+     14c:	4a e0       	ldi	r20, 0x0A	; 10
+     14e:	ce 01       	movw	r24, r28
+     150:	01 96       	adiw	r24, 0x01	; 1
+     152:	e3 d2       	rcall	.+1478   	; 0x71a <String::String(int, unsigned char)>
+     154:	be 01       	movw	r22, r28
+     156:	6f 5f       	subi	r22, 0xFF	; 255
+     158:	7f 4f       	sbci	r23, 0xFF	; 255
+     15a:	ce 01       	movw	r24, r28
+     15c:	0d 96       	adiw	r24, 0x0d	; 13
+     15e:	5f d3       	rcall	.+1726   	; 0x81e <String::operator=(String&&)>
+     160:	ce 01       	movw	r24, r28
+     162:	01 96       	adiw	r24, 0x01	; 1
+     164:	55 d2       	rcall	.+1194   	; 0x610 <String::~String()>
+_ZN15StringSumHelperC4ERK6String():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:216
+{
+public:
+  StringSumHelper(const String &s) : String(s) {}
+     166:	be 01       	movw	r22, r28
+     168:	67 5e       	subi	r22, 0xE7	; 231
+     16a:	7f 4f       	sbci	r23, 0xFF	; 255
+     16c:	ce 01       	movw	r24, r28
+     16e:	01 96       	adiw	r24, 0x01	; 1
+     170:	4e d3       	rcall	.+1692   	; 0x80e <String::String(String const&)>
+_Z12requestEventv():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:43
+
+  String message = leftString + "|" + middleString + "|" + rightString;
+     172:	6e e6       	ldi	r22, 0x6E	; 110
+     174:	70 e0       	ldi	r23, 0x00	; 0
+     176:	ce 01       	movw	r24, r28
+     178:	01 96       	adiw	r24, 0x01	; 1
+     17a:	97 d3       	rcall	.+1838   	; 0x8aa <operator+(StringSumHelper const&, char const*)>
+     17c:	be 01       	movw	r22, r28
+     17e:	6d 5e       	subi	r22, 0xED	; 237
+     180:	7f 4f       	sbci	r23, 0xFF	; 255
+     182:	82 d3       	rcall	.+1796   	; 0x888 <operator+(StringSumHelper const&, String const&)>
+     184:	6e e6       	ldi	r22, 0x6E	; 110
+     186:	70 e0       	ldi	r23, 0x00	; 0
+     188:	90 d3       	rcall	.+1824   	; 0x8aa <operator+(StringSumHelper const&, char const*)>
+     18a:	be 01       	movw	r22, r28
+     18c:	63 5f       	subi	r22, 0xF3	; 243
+     18e:	7f 4f       	sbci	r23, 0xFF	; 255
+     190:	7b d3       	rcall	.+1782   	; 0x888 <operator+(StringSumHelper const&, String const&)>
+     192:	bc 01       	movw	r22, r24
+     194:	ce 01       	movw	r24, r28
+     196:	07 96       	adiw	r24, 0x07	; 7
+     198:	3a d3       	rcall	.+1652   	; 0x80e <String::String(String const&)>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.h:213
+  #if __cplusplus >= 201103L || defined(__GXX_EXPERIMENTAL_CXX0X__)
+  void move(String &rhs);
+  #endif
+};
+
+class StringSumHelper : public String
+     19a:	ce 01       	movw	r24, r28
+     19c:	01 96       	adiw	r24, 0x01	; 1
+     19e:	38 d2       	rcall	.+1136   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:44
+  Wire.write(message.c_str());  // respond with message of 6 bytes
+     1a0:	6f 81       	ldd	r22, Y+7	; 0x07
+     1a2:	78 85       	ldd	r23, Y+8	; 0x08
+     1a4:	8c e7       	ldi	r24, 0x7C	; 124
+     1a6:	90 e0       	ldi	r25, 0x00	; 0
+     1a8:	e9 d1       	rcall	.+978    	; 0x57c <TwoWire::write(char const*)>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:45
+  digitalWrite(rightLed, LOW);
+     1aa:	60 e0       	ldi	r22, 0x00	; 0
+     1ac:	81 e8       	ldi	r24, 0x81	; 129
+     1ae:	86 d4       	rcall	.+2316   	; 0xabc <digitalWrite>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:43
+    middleString = "0" + String(middleValue);
+  }
+
+  rightString = String(rightValue);
+
+  String message = leftString + "|" + middleString + "|" + rightString;
+     1b0:	ce 01       	movw	r24, r28
+     1b2:	07 96       	adiw	r24, 0x07	; 7
+     1b4:	2d d2       	rcall	.+1114   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:31
+void requestEvent() {
+  digitalWrite(rightLed, HIGH);
+
+  String leftString;
+  String middleString;
+  String rightString;
+     1b6:	ce 01       	movw	r24, r28
+     1b8:	0d 96       	adiw	r24, 0x0d	; 13
+     1ba:	2a d2       	rcall	.+1108   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:30
+
+void requestEvent() {
+  digitalWrite(rightLed, HIGH);
+
+  String leftString;
+  String middleString;
+     1bc:	ce 01       	movw	r24, r28
+     1be:	43 96       	adiw	r24, 0x13	; 19
+     1c0:	27 d2       	rcall	.+1102   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:29
+}
+
+void requestEvent() {
+  digitalWrite(rightLed, HIGH);
+
+  String leftString;
+     1c2:	ce 01       	movw	r24, r28
+     1c4:	49 96       	adiw	r24, 0x19	; 25
+     1c6:	24 d2       	rcall	.+1096   	; 0x610 <String::~String()>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:46
+  rightString = String(rightValue);
+
+  String message = leftString + "|" + middleString + "|" + rightString;
+  Wire.write(message.c_str());  // respond with message of 6 bytes
+  digitalWrite(rightLed, LOW);
+}
+     1c8:	6e 96       	adiw	r28, 0x1e	; 30
+     1ca:	0f b6       	in	r0, 0x3f	; 63
+     1cc:	f8 94       	cli
+     1ce:	de bf       	out	0x3e, r29	; 62
+     1d0:	0f be       	out	0x3f, r0	; 63
+     1d2:	cd bf       	out	0x3d, r28	; 61
+     1d4:	df 91       	pop	r29
+     1d6:	cf 91       	pop	r28
+     1d8:	08 95       	ret
+
+000001da <setup>:
+setup():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:11
+
+#define leftLed A0
+#define rightLed A1
+
+void setup() {
+  Wire.begin(8);              // join i2c bus with address #8
+     1da:	68 e0       	ldi	r22, 0x08	; 8
+     1dc:	70 e0       	ldi	r23, 0x00	; 0
+     1de:	8c e7       	ldi	r24, 0x7C	; 124
+     1e0:	90 e0       	ldi	r25, 0x00	; 0
+     1e2:	81 d1       	rcall	.+770    	; 0x4e6 <TwoWire::begin(int)>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:12
+  Wire.onRequest(requestEvent);  // register event
+     1e4:	66 e4       	ldi	r22, 0x46	; 70
+     1e6:	70 e0       	ldi	r23, 0x00	; 0
+     1e8:	8c e7       	ldi	r24, 0x7C	; 124
+     1ea:	90 e0       	ldi	r25, 0x00	; 0
+     1ec:	d6 d1       	rcall	.+940    	; 0x59a <TwoWire::onRequest(void (*)())>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:14
+
+  pinMode(leftLed, OUTPUT);
+     1ee:	61 e0       	ldi	r22, 0x01	; 1
+     1f0:	80 e8       	ldi	r24, 0x80	; 128
+     1f2:	1f d4       	rcall	.+2110   	; 0xa32 <pinMode>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:15
+  pinMode(rightLed, OUTPUT);
+     1f4:	61 e0       	ldi	r22, 0x01	; 1
+     1f6:	81 e8       	ldi	r24, 0x81	; 129
+     1f8:	1c d4       	rcall	.+2104   	; 0xa32 <pinMode>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:16
+  digitalWrite(leftLed, HIGH);
+     1fa:	61 e0       	ldi	r22, 0x01	; 1
+     1fc:	80 e8       	ldi	r24, 0x80	; 128
+     1fe:	5e c4       	rjmp	.+2236   	; 0xabc <digitalWrite>
+
+00000200 <loop>:
+loop():
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:20
+}
+
+void loop() {
+  leftValue = random(51, 101);
+     200:	25 e6       	ldi	r18, 0x65	; 101
+     202:	30 e0       	ldi	r19, 0x00	; 0
+     204:	40 e0       	ldi	r20, 0x00	; 0
+     206:	50 e0       	ldi	r21, 0x00	; 0
+     208:	63 e3       	ldi	r22, 0x33	; 51
+     20a:	70 e0       	ldi	r23, 0x00	; 0
+     20c:	80 e0       	ldi	r24, 0x00	; 0
+     20e:	90 e0       	ldi	r25, 0x00	; 0
+     210:	e1 d1       	rcall	.+962    	; 0x5d4 <random(long, long)>
+     212:	70 93 75 00 	sts	0x0075, r23	; 0x800075 <leftValue+0x1>
+     216:	60 93 74 00 	sts	0x0074, r22	; 0x800074 <leftValue>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:21
+  middleValue = random(10, 51);
+     21a:	23 e3       	ldi	r18, 0x33	; 51
+     21c:	30 e0       	ldi	r19, 0x00	; 0
+     21e:	40 e0       	ldi	r20, 0x00	; 0
+     220:	50 e0       	ldi	r21, 0x00	; 0
+     222:	6a e0       	ldi	r22, 0x0A	; 10
+     224:	70 e0       	ldi	r23, 0x00	; 0
+     226:	80 e0       	ldi	r24, 0x00	; 0
+     228:	90 e0       	ldi	r25, 0x00	; 0
+     22a:	d4 d1       	rcall	.+936    	; 0x5d4 <random(long, long)>
+     22c:	70 93 73 00 	sts	0x0073, r23	; 0x800073 <middleValue+0x1>
+     230:	60 93 72 00 	sts	0x0072, r22	; 0x800072 <middleValue>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:22
+  rightValue = random(101, 205);
+     234:	2d ec       	ldi	r18, 0xCD	; 205
+     236:	30 e0       	ldi	r19, 0x00	; 0
+     238:	40 e0       	ldi	r20, 0x00	; 0
+     23a:	50 e0       	ldi	r21, 0x00	; 0
+     23c:	65 e6       	ldi	r22, 0x65	; 101
+     23e:	70 e0       	ldi	r23, 0x00	; 0
+     240:	80 e0       	ldi	r24, 0x00	; 0
+     242:	90 e0       	ldi	r25, 0x00	; 0
+     244:	c7 d1       	rcall	.+910    	; 0x5d4 <random(long, long)>
+     246:	70 93 71 00 	sts	0x0071, r23	; 0x800071 <__data_end+0x1>
+     24a:	60 93 70 00 	sts	0x0070, r22	; 0x800070 <__data_end>
+C:\Users\nickb\OneDrive\Documenten\Arduino\slave_sender/slave_sender.ino:23
+  delay(100);
+     24e:	64 e6       	ldi	r22, 0x64	; 100
+     250:	70 e0       	ldi	r23, 0x00	; 0
+     252:	80 e0       	ldi	r24, 0x00	; 0
+     254:	90 e0       	ldi	r25, 0x00	; 0
+     256:	b6 c3       	rjmp	.+1900   	; 0x9c4 <delay>
+
+00000258 <Flush_TWI_Buffers>:
+Flush_TWI_Buffers():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:153
+// Check if there is an active data session.
+unsigned char USI_TWI_Slave_Is_Active()
+{
+  // Active if Overflow Interrupt is enabled and no Stop Condition occurred
+  return (USICR & (1 << USIOIE)) && ((USISR & (1 << USIPF)) == 0);
+}
+     258:	10 92 78 00 	sts	0x0078, r1	; 0x800078 <TWI_RxTail>
+     25c:	10 92 79 00 	sts	0x0079, r1	; 0x800079 <TWI_RxHead>
+     260:	10 92 76 00 	sts	0x0076, r1	; 0x800076 <TWI_TxTail>
+     264:	10 92 77 00 	sts	0x0077, r1	; 0x800077 <TWI_TxHead>
+     268:	08 95       	ret
+
+0000026a <USI_TWI_Slave_Initialise>:
+USI_TWI_Slave_Initialise():
+     26a:	cf 93       	push	r28
+     26c:	c8 2f       	mov	r28, r24
+     26e:	f4 df       	rcall	.-24     	; 0x258 <Flush_TWI_Buffers>
+     270:	c0 93 7b 00 	sts	0x007B, r28	; 0x80007b <TWI_slaveAddress>
+     274:	10 92 83 00 	sts	0x0083, r1	; 0x800083 <USI_TWI_On_Slave_Transmit+0x1>
+     278:	10 92 82 00 	sts	0x0082, r1	; 0x800082 <USI_TWI_On_Slave_Transmit>
+     27c:	10 92 81 00 	sts	0x0081, r1	; 0x800081 <USI_TWI_On_Slave_Receive+0x1>
+     280:	10 92 80 00 	sts	0x0080, r1	; 0x800080 <USI_TWI_On_Slave_Receive>
+     284:	dc 9a       	sbi	0x1b, 4	; 27
+     286:	de 9a       	sbi	0x1b, 6	; 27
+     288:	d4 9a       	sbi	0x1a, 4	; 26
+     28a:	d6 98       	cbi	0x1a, 6	; 26
+     28c:	88 ea       	ldi	r24, 0xA8	; 168
+     28e:	8d b9       	out	0x0d, r24	; 13
+     290:	80 ef       	ldi	r24, 0xF0	; 240
+     292:	8e b9       	out	0x0e, r24	; 14
+     294:	cf 91       	pop	r28
+     296:	08 95       	ret
+
+00000298 <USI_TWI_Transmit_Byte>:
+USI_TWI_Transmit_Byte():
+     298:	90 91 77 00 	lds	r25, 0x0077	; 0x800077 <TWI_TxHead>
+     29c:	9f 5f       	subi	r25, 0xFF	; 255
+     29e:	9f 70       	andi	r25, 0x0F	; 15
+     2a0:	20 91 76 00 	lds	r18, 0x0076	; 0x800076 <TWI_TxTail>
+     2a4:	29 17       	cp	r18, r25
+     2a6:	e1 f3       	breq	.-8      	; 0x2a0 <USI_TWI_Transmit_Byte+0x8>
+     2a8:	e9 2f       	mov	r30, r25
+     2aa:	f0 e0       	ldi	r31, 0x00	; 0
+     2ac:	e3 56       	subi	r30, 0x63	; 99
+     2ae:	ff 4f       	sbci	r31, 0xFF	; 255
+     2b0:	80 83       	st	Z, r24
+     2b2:	90 93 77 00 	sts	0x0077, r25	; 0x800077 <TWI_TxHead>
+     2b6:	08 95       	ret
+
+000002b8 <USI_TWI_Data_In_Receive_Buffer>:
+USI_TWI_Data_In_Receive_Buffer():
+     2b8:	90 91 78 00 	lds	r25, 0x0078	; 0x800078 <TWI_RxTail>
+     2bc:	80 91 79 00 	lds	r24, 0x0079	; 0x800079 <TWI_RxHead>
+     2c0:	89 1b       	sub	r24, r25
+     2c2:	8f 70       	andi	r24, 0x0F	; 15
+     2c4:	08 95       	ret
+
+000002c6 <USI_TWI_Space_In_Transmission_Buffer>:
+USI_TWI_Space_In_Transmission_Buffer():
+     2c6:	90 91 77 00 	lds	r25, 0x0077	; 0x800077 <TWI_TxHead>
+     2ca:	80 91 76 00 	lds	r24, 0x0076	; 0x800076 <TWI_TxTail>
+     2ce:	9f 5f       	subi	r25, 0xFF	; 255
+     2d0:	89 1b       	sub	r24, r25
+     2d2:	8f 70       	andi	r24, 0x0F	; 15
+     2d4:	08 95       	ret
+
+000002d6 <__vector_15>:
+__vector_15():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:165
+ISR(USI_START_VECTOR)
+#elif __ICCAVR__
+#pragma vector = USI_START_VECTOR
+__interrupt void USI_Start_Condition_ISR(void)
+#endif
+{
+     2d6:	1f 92       	push	r1
+     2d8:	0f 92       	push	r0
+     2da:	0f b6       	in	r0, 0x3f	; 63
+     2dc:	0f 92       	push	r0
+     2de:	11 24       	eor	r1, r1
+     2e0:	0f 93       	push	r16
+     2e2:	1f 93       	push	r17
+     2e4:	2f 93       	push	r18
+     2e6:	3f 93       	push	r19
+     2e8:	4f 93       	push	r20
+     2ea:	5f 93       	push	r21
+     2ec:	6f 93       	push	r22
+     2ee:	7f 93       	push	r23
+     2f0:	8f 93       	push	r24
+     2f2:	9f 93       	push	r25
+     2f4:	af 93       	push	r26
+     2f6:	bf 93       	push	r27
+     2f8:	cf 93       	push	r28
+     2fa:	ef 93       	push	r30
+     2fc:	ff 93       	push	r31
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:169
+  unsigned char tmpPin; // Temporary variable for pin state
+  unsigned char tmpRxHead; // Temporary variable to store volatile
+  // call slave receive callback on repeated start
+  if (USI_TWI_On_Slave_Receive) {
+     2fe:	00 91 80 00 	lds	r16, 0x0080	; 0x800080 <USI_TWI_On_Slave_Receive>
+     302:	10 91 81 00 	lds	r17, 0x0081	; 0x800081 <USI_TWI_On_Slave_Receive+0x1>
+     306:	01 15       	cp	r16, r1
+     308:	11 05       	cpc	r17, r1
+     30a:	61 f0       	breq	.+24     	; 0x324 <__vector_15+0x4e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:170
+    tmpRxHead = TWI_RxHead;
+     30c:	c0 91 79 00 	lds	r28, 0x0079	; 0x800079 <TWI_RxHead>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:171
+    if (TWI_RxTail != tmpRxHead) { // data in receive buffer
+     310:	80 91 78 00 	lds	r24, 0x0078	; 0x800078 <TWI_RxTail>
+     314:	8c 17       	cp	r24, r28
+     316:	31 f0       	breq	.+12     	; 0x324 <__vector_15+0x4e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:172
+      USI_TWI_On_Slave_Receive(USI_TWI_Data_In_Receive_Buffer());
+     318:	cf df       	rcall	.-98     	; 0x2b8 <USI_TWI_Data_In_Receive_Buffer>
+     31a:	90 e0       	ldi	r25, 0x00	; 0
+     31c:	f8 01       	movw	r30, r16
+     31e:	09 95       	icall
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:174
+      // reset rx buffer
+      TWI_RxTail = tmpRxHead;
+     320:	c0 93 78 00 	sts	0x0078, r28	; 0x800078 <TWI_RxTail>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:178
+    }
+  }
+
+  USI_TWI_Overflow_State = USI_SLAVE_CHECK_ADDRESS;
+     324:	10 92 7a 00 	sts	0x007A, r1	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:179
+  DDR_USI &= ~(1 << PORT_USI_SDA); // Set SDA as input
+     328:	d6 98       	cbi	0x1a, 6	; 26
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:180 (discriminator 2)
+  while ((tmpPin = (PIN_USI_CL & (1 << PORT_USI_SCL))) && ((PIN_USI & (1 << PIN_USI_SDA)) == 0))
+     32a:	cc 9b       	sbis	0x19, 4	; 25
+     32c:	1a c0       	rjmp	.+52     	; 0x362 <__vector_15+0x8c>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:180 (discriminator 1)
+     32e:	ce 9b       	sbis	0x19, 6	; 25
+     330:	fc cf       	rjmp	.-8      	; 0x32a <__vector_15+0x54>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:185
+    ; // Wait for SCL to go low to ensure the "Start Condition" has completed.
+        // If a Stop condition arises then leave the interrupt to prevent waiting forever.
+  if (tmpPin) {
+    // Stop Condition (waiting for next Start Condition)
+    USICR = (1 << USISIE) | (0 << USIOIE) | // Enable Start Condition Interrupt. Disable Overflow Interrupt.
+     332:	88 ea       	ldi	r24, 0xA8	; 168
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:192
+                                            // to first Start Condition (potential failure)
+            (1 << USICS1) | (0 << USICS0) | (0 << USICLK) | // Shift Register Clock Source = External, positive edge
+            (0 << USITC);
+  } else {
+    // really Start Condition (Enable Overflow Interrupt)
+    USICR = (1 << USISIE) | (1 << USIOIE)
+     334:	8d b9       	out	0x0d, r24	; 13
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:198
+            | // Enable Overflow and Start Condition Interrupt. (Keep StartCondInt to detect RESTART)
+            (1 << USIWM1) | (1 << USIWM0) |                 // Set USI in Two-wire mode.
+            (1 << USICS1) | (0 << USICS0) | (0 << USICLK) | // Shift Register Clock Source = External, positive edge
+            (0 << USITC);
+  }
+  USISR = (1 << USI_START_COND_INT) | (1 << USIOIF) | (1 << USIPF) | (1 << USIDC) | // Clear flags
+     336:	80 ef       	ldi	r24, 0xF0	; 240
+     338:	8e b9       	out	0x0e, r24	; 14
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:200
+          (0x0 << USICNT0); // Set USI to sample 8 bits i.e. count 16 external pin toggles.
+}
+     33a:	ff 91       	pop	r31
+     33c:	ef 91       	pop	r30
+     33e:	cf 91       	pop	r28
+     340:	bf 91       	pop	r27
+     342:	af 91       	pop	r26
+     344:	9f 91       	pop	r25
+     346:	8f 91       	pop	r24
+     348:	7f 91       	pop	r23
+     34a:	6f 91       	pop	r22
+     34c:	5f 91       	pop	r21
+     34e:	4f 91       	pop	r20
+     350:	3f 91       	pop	r19
+     352:	2f 91       	pop	r18
+     354:	1f 91       	pop	r17
+     356:	0f 91       	pop	r16
+     358:	0f 90       	pop	r0
+     35a:	0f be       	out	0x3f, r0	; 63
+     35c:	0f 90       	pop	r0
+     35e:	1f 90       	pop	r1
+     360:	18 95       	reti
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:192
+                                            // to first Start Condition (potential failure)
+            (1 << USICS1) | (0 << USICS0) | (0 << USICLK) | // Shift Register Clock Source = External, positive edge
+            (0 << USITC);
+  } else {
+    // really Start Condition (Enable Overflow Interrupt)
+    USICR = (1 << USISIE) | (1 << USIOIE)
+     362:	88 ef       	ldi	r24, 0xF8	; 248
+     364:	e7 cf       	rjmp	.-50     	; 0x334 <__vector_15+0x5e>
+
+00000366 <__vector_16>:
+__vector_16():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:207
+/*----------------------------------------------------------
+ Handles all the communication. Is disabled only when waiting
+ for new Start Condition.
+----------------------------------------------------------*/
+ISR(USI_OVERFLOW_VECTOR)
+{
+     366:	1f 92       	push	r1
+     368:	0f 92       	push	r0
+     36a:	0f b6       	in	r0, 0x3f	; 63
+     36c:	0f 92       	push	r0
+     36e:	11 24       	eor	r1, r1
+     370:	0f 93       	push	r16
+     372:	1f 93       	push	r17
+     374:	2f 93       	push	r18
+     376:	3f 93       	push	r19
+     378:	4f 93       	push	r20
+     37a:	5f 93       	push	r21
+     37c:	6f 93       	push	r22
+     37e:	7f 93       	push	r23
+     380:	8f 93       	push	r24
+     382:	9f 93       	push	r25
+     384:	af 93       	push	r26
+     386:	bf 93       	push	r27
+     388:	cf 93       	push	r28
+     38a:	ef 93       	push	r30
+     38c:	ff 93       	push	r31
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:212
+  unsigned char tmpRxHead;
+  unsigned char tmpTxTail; // Temporary variables to store volatiles
+  unsigned char tmpUSIDR;
+
+  switch (USI_TWI_Overflow_State) {
+     38e:	80 91 7a 00 	lds	r24, 0x007A	; 0x80007a <USI_TWI_Overflow_State>
+     392:	82 30       	cpi	r24, 0x02	; 2
+     394:	09 f4       	brne	.+2      	; 0x398 <__vector_16+0x32>
+     396:	76 c0       	rjmp	.+236    	; 0x484 <__LOCK_REGION_LENGTH__+0x84>
+     398:	c8 f4       	brcc	.+50     	; 0x3cc <__vector_16+0x66>
+     39a:	88 23       	and	r24, r24
+     39c:	99 f1       	breq	.+102    	; 0x404 <__LOCK_REGION_LENGTH__+0x4>
+     39e:	81 30       	cpi	r24, 0x01	; 1
+     3a0:	09 f4       	brne	.+2      	; 0x3a4 <__vector_16+0x3e>
+     3a2:	56 c0       	rjmp	.+172    	; 0x450 <__LOCK_REGION_LENGTH__+0x50>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:306
+    {
+      SET_USI_TO_SEND_NACK();
+    }
+    break;
+  }
+}
+     3a4:	ff 91       	pop	r31
+     3a6:	ef 91       	pop	r30
+     3a8:	cf 91       	pop	r28
+     3aa:	bf 91       	pop	r27
+     3ac:	af 91       	pop	r26
+     3ae:	9f 91       	pop	r25
+     3b0:	8f 91       	pop	r24
+     3b2:	7f 91       	pop	r23
+     3b4:	6f 91       	pop	r22
+     3b6:	5f 91       	pop	r21
+     3b8:	4f 91       	pop	r20
+     3ba:	3f 91       	pop	r19
+     3bc:	2f 91       	pop	r18
+     3be:	1f 91       	pop	r17
+     3c0:	0f 91       	pop	r16
+     3c2:	0f 90       	pop	r0
+     3c4:	0f be       	out	0x3f, r0	; 63
+     3c6:	0f 90       	pop	r0
+     3c8:	1f 90       	pop	r1
+     3ca:	18 95       	reti
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:212
+{
+  unsigned char tmpRxHead;
+  unsigned char tmpTxTail; // Temporary variables to store volatiles
+  unsigned char tmpUSIDR;
+
+  switch (USI_TWI_Overflow_State) {
+     3cc:	84 30       	cpi	r24, 0x04	; 4
+     3ce:	09 f4       	brne	.+2      	; 0x3d2 <__vector_16+0x6c>
+     3d0:	5f c0       	rjmp	.+190    	; 0x490 <__LOCK_REGION_LENGTH__+0x90>
+     3d2:	b8 f1       	brcs	.+110    	; 0x442 <__LOCK_REGION_LENGTH__+0x42>
+     3d4:	85 30       	cpi	r24, 0x05	; 5
+     3d6:	31 f7       	brne	.-52     	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:293
+    break;
+
+  // Copy data from USIDR and send ACK. Next USI_SLAVE_REQUEST_DATA
+  case USI_SLAVE_GET_DATA_AND_SEND_ACK:
+    // Put data into Buffer
+    USI_TWI_Overflow_State = USI_SLAVE_REQUEST_DATA;
+     3d8:	84 e0       	ldi	r24, 0x04	; 4
+     3da:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:294
+    tmpUSIDR              = USIDR; // Not necessary, but prevents warnings
+     3de:	9f b1       	in	r25, 0x0f	; 15
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:295
+    tmpRxHead = (TWI_RxHead + 1) & TWI_RX_BUFFER_MASK;
+     3e0:	80 91 79 00 	lds	r24, 0x0079	; 0x800079 <TWI_RxHead>
+     3e4:	8f 5f       	subi	r24, 0xFF	; 255
+     3e6:	8f 70       	andi	r24, 0x0F	; 15
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:296
+    if (TWI_RxTail != tmpRxHead) {
+     3e8:	20 91 78 00 	lds	r18, 0x0078	; 0x800078 <TWI_RxTail>
+     3ec:	28 17       	cp	r18, r24
+     3ee:	09 f4       	brne	.+2      	; 0x3f2 <__vector_16+0x8c>
+     3f0:	70 c0       	rjmp	.+224    	; 0x4d2 <__LOCK_REGION_LENGTH__+0xd2>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:297
+      TWI_RxHead            = tmpRxHead;
+     3f2:	80 93 79 00 	sts	0x0079, r24	; 0x800079 <TWI_RxHead>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:298
+      TWI_RxBuf[TWI_RxHead] = tmpUSIDR;
+     3f6:	e0 91 79 00 	lds	r30, 0x0079	; 0x800079 <TWI_RxHead>
+     3fa:	f0 e0       	ldi	r31, 0x00	; 0
+     3fc:	e3 57       	subi	r30, 0x73	; 115
+     3fe:	ff 4f       	sbci	r31, 0xFF	; 255
+     400:	90 83       	st	Z, r25
+     402:	19 c0       	rjmp	.+50     	; 0x436 <__LOCK_REGION_LENGTH__+0x36>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:216
+
+  switch (USI_TWI_Overflow_State) {
+  // ---------- Address mode ----------
+  // Check address and send ACK (and next USI_SLAVE_SEND_DATA) if OK, else reset USI.
+  case USI_SLAVE_CHECK_ADDRESS:
+    if ((USIDR == 0) || ((USIDR >> 1) == TWI_slaveAddress)) {
+     404:	8f b1       	in	r24, 0x0f	; 15
+     406:	88 23       	and	r24, r24
+     408:	31 f0       	breq	.+12     	; 0x416 <__LOCK_REGION_LENGTH__+0x16>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:216 (discriminator 1)
+     40a:	8f b1       	in	r24, 0x0f	; 15
+     40c:	86 95       	lsr	r24
+     40e:	90 91 7b 00 	lds	r25, 0x007B	; 0x80007b <TWI_slaveAddress>
+     412:	89 13       	cpse	r24, r25
+     414:	19 c0       	rjmp	.+50     	; 0x448 <__LOCK_REGION_LENGTH__+0x48>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:217
+      if (USIDR & 0x01) {
+     416:	78 9b       	sbis	0x0f, 0	; 15
+     418:	12 c0       	rjmp	.+36     	; 0x43e <__LOCK_REGION_LENGTH__+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:218
+        if (USI_TWI_On_Slave_Transmit) {
+     41a:	e0 91 82 00 	lds	r30, 0x0082	; 0x800082 <USI_TWI_On_Slave_Transmit>
+     41e:	f0 91 83 00 	lds	r31, 0x0083	; 0x800083 <USI_TWI_On_Slave_Transmit+0x1>
+     422:	30 97       	sbiw	r30, 0x00	; 0
+     424:	29 f0       	breq	.+10     	; 0x430 <__LOCK_REGION_LENGTH__+0x30>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:220
+          // reset tx buffer and call callback
+          tmpTxTail = TWI_TxHead;
+     426:	80 91 77 00 	lds	r24, 0x0077	; 0x800077 <TWI_TxHead>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:221
+          TWI_TxTail = tmpTxTail;
+     42a:	80 93 76 00 	sts	0x0076, r24	; 0x800076 <TWI_TxTail>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:222
+          USI_TWI_On_Slave_Transmit();
+     42e:	09 95       	icall
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:224
+        }
+        USI_TWI_Overflow_State = USI_SLAVE_SEND_DATA;
+     430:	81 e0       	ldi	r24, 0x01	; 1
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:226
+      } else {
+        USI_TWI_Overflow_State = USI_SLAVE_REQUEST_DATA;
+     432:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:228
+      }
+      SET_USI_TO_SEND_ACK();
+     436:	1f b8       	out	0x0f, r1	; 15
+     438:	d6 9a       	sbi	0x1a, 6	; 26
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:302
+      TWI_RxHead            = tmpRxHead;
+      TWI_RxBuf[TWI_RxHead] = tmpUSIDR;
+      SET_USI_TO_SEND_ACK();
+    } else // If the buffer is full then:
+    {
+      SET_USI_TO_SEND_NACK();
+     43a:	8e e7       	ldi	r24, 0x7E	; 126
+     43c:	21 c0       	rjmp	.+66     	; 0x480 <__LOCK_REGION_LENGTH__+0x80>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:226
+          TWI_TxTail = tmpTxTail;
+          USI_TWI_On_Slave_Transmit();
+        }
+        USI_TWI_Overflow_State = USI_SLAVE_SEND_DATA;
+      } else {
+        USI_TWI_Overflow_State = USI_SLAVE_REQUEST_DATA;
+     43e:	84 e0       	ldi	r24, 0x04	; 4
+     440:	f8 cf       	rjmp	.-16     	; 0x432 <__LOCK_REGION_LENGTH__+0x32>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:237
+    break;
+
+  // ----- Master write data mode ------
+  // Check reply and goto USI_SLAVE_SEND_DATA if OK, else reset USI.
+  case USI_SLAVE_CHECK_REPLY_FROM_SEND_DATA:
+    if (USIDR) // If NACK, the master does not want more data.
+     442:	8f b1       	in	r24, 0x0f	; 15
+     444:	88 23       	and	r24, r24
+     446:	21 f0       	breq	.+8      	; 0x450 <__LOCK_REGION_LENGTH__+0x50>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:255
+    if (TWI_TxHead != tmpTxTail) {
+      TWI_TxTail = (TWI_TxTail + 1) & TWI_TX_BUFFER_MASK;
+      USIDR      = TWI_TxBuf[TWI_TxTail];
+    } else // If the buffer is empty then:
+    {
+      SET_USI_TO_TWI_START_CONDITION_MODE();
+     448:	d6 98       	cbi	0x1a, 6	; 26
+     44a:	88 ea       	ldi	r24, 0xA8	; 168
+     44c:	8d b9       	out	0x0d, r24	; 13
+     44e:	17 c0       	rjmp	.+46     	; 0x47e <__LOCK_REGION_LENGTH__+0x7e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:249
+  // Copy data from buffer to USIDR and set USI to shift byte. Next USI_SLAVE_REQUEST_REPLY_FROM_SEND_DATA
+  /* Falls through. */
+  case USI_SLAVE_SEND_DATA:
+
+    // Get data from Buffer
+    tmpTxTail = TWI_TxTail; // Not necessary, but prevents warnings
+     450:	80 91 76 00 	lds	r24, 0x0076	; 0x800076 <TWI_TxTail>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:250
+    if (TWI_TxHead != tmpTxTail) {
+     454:	90 91 77 00 	lds	r25, 0x0077	; 0x800077 <TWI_TxHead>
+     458:	98 17       	cp	r25, r24
+     45a:	b1 f3       	breq	.-20     	; 0x448 <__LOCK_REGION_LENGTH__+0x48>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:251
+      TWI_TxTail = (TWI_TxTail + 1) & TWI_TX_BUFFER_MASK;
+     45c:	80 91 76 00 	lds	r24, 0x0076	; 0x800076 <TWI_TxTail>
+     460:	8f 5f       	subi	r24, 0xFF	; 255
+     462:	8f 70       	andi	r24, 0x0F	; 15
+     464:	80 93 76 00 	sts	0x0076, r24	; 0x800076 <TWI_TxTail>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:252
+      USIDR      = TWI_TxBuf[TWI_TxTail];
+     468:	e0 91 76 00 	lds	r30, 0x0076	; 0x800076 <TWI_TxTail>
+     46c:	f0 e0       	ldi	r31, 0x00	; 0
+     46e:	e3 56       	subi	r30, 0x63	; 99
+     470:	ff 4f       	sbci	r31, 0xFF	; 255
+     472:	80 81       	ld	r24, Z
+     474:	8f b9       	out	0x0f, r24	; 15
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:258
+    } else // If the buffer is empty then:
+    {
+      SET_USI_TO_TWI_START_CONDITION_MODE();
+      return;
+    }
+    USI_TWI_Overflow_State = USI_SLAVE_REQUEST_REPLY_FROM_SEND_DATA;
+     476:	82 e0       	ldi	r24, 0x02	; 2
+     478:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:259
+    SET_USI_TO_SEND_DATA();
+     47c:	d6 9a       	sbi	0x1a, 6	; 26
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:255
+    if (TWI_TxHead != tmpTxTail) {
+      TWI_TxTail = (TWI_TxTail + 1) & TWI_TX_BUFFER_MASK;
+      USIDR      = TWI_TxBuf[TWI_TxTail];
+    } else // If the buffer is empty then:
+    {
+      SET_USI_TO_TWI_START_CONDITION_MODE();
+     47e:	80 e7       	ldi	r24, 0x70	; 112
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:302
+      TWI_RxHead            = tmpRxHead;
+      TWI_RxBuf[TWI_RxHead] = tmpUSIDR;
+      SET_USI_TO_SEND_ACK();
+    } else // If the buffer is full then:
+    {
+      SET_USI_TO_SEND_NACK();
+     480:	8e b9       	out	0x0e, r24	; 14
+     482:	90 cf       	rjmp	.-224    	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:264
+    SET_USI_TO_SEND_DATA();
+    break;
+
+  // Set USI to sample reply from master. Next USI_SLAVE_CHECK_REPLY_FROM_SEND_DATA
+  case USI_SLAVE_REQUEST_REPLY_FROM_SEND_DATA:
+    USI_TWI_Overflow_State = USI_SLAVE_CHECK_REPLY_FROM_SEND_DATA;
+     484:	83 e0       	ldi	r24, 0x03	; 3
+     486:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:265
+    SET_USI_TO_READ_ACK();
+     48a:	d6 98       	cbi	0x1a, 6	; 26
+     48c:	1f b8       	out	0x0f, r1	; 15
+     48e:	d5 cf       	rjmp	.-86     	; 0x43a <__LOCK_REGION_LENGTH__+0x3a>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:271
+    break;
+
+  // ----- Master read data mode ------
+  // Set USI to sample data from master. Next USI_SLAVE_GET_DATA_AND_SEND_ACK.
+  case USI_SLAVE_REQUEST_DATA:
+    USI_TWI_Overflow_State = USI_SLAVE_GET_DATA_AND_SEND_ACK;
+     490:	85 e0       	ldi	r24, 0x05	; 5
+     492:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <USI_TWI_Overflow_State>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:272
+    SET_USI_TO_READ_DATA();
+     496:	d6 98       	cbi	0x1a, 6	; 26
+     498:	80 e7       	ldi	r24, 0x70	; 112
+     49a:	8e b9       	out	0x0e, r24	; 14
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:274
+    // call slave receive callback on stop condition
+    if (USI_TWI_On_Slave_Receive) {
+     49c:	00 91 80 00 	lds	r16, 0x0080	; 0x800080 <USI_TWI_On_Slave_Receive>
+     4a0:	10 91 81 00 	lds	r17, 0x0081	; 0x800081 <USI_TWI_On_Slave_Receive+0x1>
+     4a4:	01 15       	cp	r16, r1
+     4a6:	11 05       	cpc	r17, r1
+     4a8:	09 f4       	brne	.+2      	; 0x4ac <__LOCK_REGION_LENGTH__+0xac>
+     4aa:	7c cf       	rjmp	.-264    	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:275
+      tmpRxHead = TWI_RxHead;
+     4ac:	c0 91 79 00 	lds	r28, 0x0079	; 0x800079 <TWI_RxHead>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:276
+      if (TWI_RxTail != tmpRxHead) { // data in receive buffer
+     4b0:	80 91 78 00 	lds	r24, 0x0078	; 0x800078 <TWI_RxTail>
+     4b4:	8c 17       	cp	r24, r28
+     4b6:	09 f4       	brne	.+2      	; 0x4ba <__LOCK_REGION_LENGTH__+0xba>
+     4b8:	75 cf       	rjmp	.-278    	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:278 (discriminator 1)
+        // check for stop Condition
+        while ((USISR & ((1 << USI_START_COND_INT) | (1 << USIPF) | (0xE << USICNT0))) == 0)
+     4ba:	8e b1       	in	r24, 0x0e	; 14
+     4bc:	8e 7a       	andi	r24, 0xAE	; 174
+     4be:	e9 f3       	breq	.-6      	; 0x4ba <__LOCK_REGION_LENGTH__+0xba>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:281
+          ;// wait for either Start or Stop Condition
+          // cancel after one SCL cycle
+        if (USISR & (1 << USIPF)) { // Stop Condition
+     4c0:	75 9b       	sbis	0x0e, 5	; 14
+     4c2:	70 cf       	rjmp	.-288    	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:282
+          USI_TWI_On_Slave_Receive(USI_TWI_Data_In_Receive_Buffer());
+     4c4:	f9 de       	rcall	.-526    	; 0x2b8 <USI_TWI_Data_In_Receive_Buffer>
+     4c6:	90 e0       	ldi	r25, 0x00	; 0
+     4c8:	f8 01       	movw	r30, r16
+     4ca:	09 95       	icall
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:284
+          // reset rx buffer
+          TWI_RxTail = tmpRxHead;
+     4cc:	c0 93 78 00 	sts	0x0078, r28	; 0x800078 <TWI_RxTail>
+     4d0:	69 cf       	rjmp	.-302    	; 0x3a4 <__vector_16+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src\USI_TWI_Slave/USI_TWI_Slave.c:302
+      TWI_RxHead            = tmpRxHead;
+      TWI_RxBuf[TWI_RxHead] = tmpUSIDR;
+      SET_USI_TO_SEND_ACK();
+    } else // If the buffer is full then:
+    {
+      SET_USI_TO_SEND_NACK();
+     4d2:	d6 98       	cbi	0x1a, 6	; 26
+     4d4:	b2 cf       	rjmp	.-156    	; 0x43a <__LOCK_REGION_LENGTH__+0x3a>
+
+000004d6 <TwoWire::begin(unsigned char)>:
+_ZN7TwoWire5beginEh():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src/Wire.cpp:601
+}
+
+// sets function called on slave write
+void TwoWire::onReceive( void (*function)(int) ) {
+  USI_TWI_On_Slave_Receive = function;
+}
+     4d6:	86 2f       	mov	r24, r22
+     4d8:	10 92 7f 00 	sts	0x007F, r1	; 0x80007f <TwoWire::BufferIndex>
+     4dc:	10 92 7e 00 	sts	0x007E, r1	; 0x80007e <TwoWire::BufferLength>
+     4e0:	10 92 7d 00 	sts	0x007D, r1	; 0x80007d <TwoWire::transmitting>
+     4e4:	c2 ce       	rjmp	.-636    	; 0x26a <USI_TWI_Slave_Initialise>
+
+000004e6 <TwoWire::begin(int)>:
+_ZN7TwoWire5beginEi():
+     4e6:	f7 cf       	rjmp	.-18     	; 0x4d6 <TwoWire::begin(unsigned char)>
+
+000004e8 <TwoWire::write(unsigned char)>:
+_ZN7TwoWire5writeEh():
+     4e8:	cf 93       	push	r28
+     4ea:	80 91 7d 00 	lds	r24, 0x007D	; 0x80007d <TwoWire::transmitting>
+     4ee:	88 23       	and	r24, r24
+     4f0:	e1 f0       	breq	.+56     	; 0x52a <TwoWire::write(unsigned char)+0x42>
+     4f2:	80 91 7e 00 	lds	r24, 0x007E	; 0x80007e <TwoWire::BufferLength>
+     4f6:	80 32       	cpi	r24, 0x20	; 32
+     4f8:	20 f0       	brcs	.+8      	; 0x502 <TwoWire::write(unsigned char)+0x1a>
+     4fa:	90 e0       	ldi	r25, 0x00	; 0
+     4fc:	80 e0       	ldi	r24, 0x00	; 0
+     4fe:	cf 91       	pop	r28
+     500:	08 95       	ret
+     502:	e0 91 7f 00 	lds	r30, 0x007F	; 0x80007f <TwoWire::BufferIndex>
+     506:	80 91 6a 00 	lds	r24, 0x006A	; 0x80006a <TwoWire::Buffer>
+     50a:	90 91 6b 00 	lds	r25, 0x006B	; 0x80006b <TwoWire::Buffer+0x1>
+     50e:	e8 0f       	add	r30, r24
+     510:	f9 2f       	mov	r31, r25
+     512:	f1 1d       	adc	r31, r1
+     514:	60 83       	st	Z, r22
+     516:	80 91 7f 00 	lds	r24, 0x007F	; 0x80007f <TwoWire::BufferIndex>
+     51a:	8f 5f       	subi	r24, 0xFF	; 255
+     51c:	80 93 7f 00 	sts	0x007F, r24	; 0x80007f <TwoWire::BufferIndex>
+     520:	80 93 7e 00 	sts	0x007E, r24	; 0x80007e <TwoWire::BufferLength>
+     524:	81 e0       	ldi	r24, 0x01	; 1
+     526:	90 e0       	ldi	r25, 0x00	; 0
+     528:	ea cf       	rjmp	.-44     	; 0x4fe <TwoWire::write(unsigned char)+0x16>
+     52a:	c6 2f       	mov	r28, r22
+     52c:	cc de       	rcall	.-616    	; 0x2c6 <USI_TWI_Space_In_Transmission_Buffer>
+     52e:	88 23       	and	r24, r24
+     530:	21 f3       	breq	.-56     	; 0x4fa <TwoWire::write(unsigned char)+0x12>
+     532:	8c 2f       	mov	r24, r28
+     534:	b1 de       	rcall	.-670    	; 0x298 <USI_TWI_Transmit_Byte>
+     536:	f6 cf       	rjmp	.-20     	; 0x524 <TwoWire::write(unsigned char)+0x3c>
+
+00000538 <TwoWire::write(unsigned char const*, unsigned int)>:
+_ZN7TwoWire5writeEPKhj():
+     538:	cf 92       	push	r12
+     53a:	df 92       	push	r13
+     53c:	ef 92       	push	r14
+     53e:	ff 92       	push	r15
+     540:	0f 93       	push	r16
+     542:	1f 93       	push	r17
+     544:	cf 93       	push	r28
+     546:	df 93       	push	r29
+     548:	6c 01       	movw	r12, r24
+     54a:	eb 01       	movw	r28, r22
+     54c:	7b 01       	movw	r14, r22
+     54e:	e4 0e       	add	r14, r20
+     550:	f5 1e       	adc	r15, r21
+     552:	10 e0       	ldi	r17, 0x00	; 0
+     554:	00 e0       	ldi	r16, 0x00	; 0
+     556:	ce 15       	cp	r28, r14
+     558:	df 05       	cpc	r29, r15
+     55a:	31 f0       	breq	.+12     	; 0x568 <TwoWire::write(unsigned char const*, unsigned int)+0x30>
+     55c:	69 91       	ld	r22, Y+
+     55e:	c6 01       	movw	r24, r12
+     560:	c3 df       	rcall	.-122    	; 0x4e8 <TwoWire::write(unsigned char)>
+     562:	08 0f       	add	r16, r24
+     564:	19 1f       	adc	r17, r25
+     566:	f7 cf       	rjmp	.-18     	; 0x556 <TwoWire::write(unsigned char const*, unsigned int)+0x1e>
+     568:	c8 01       	movw	r24, r16
+     56a:	df 91       	pop	r29
+     56c:	cf 91       	pop	r28
+     56e:	1f 91       	pop	r17
+     570:	0f 91       	pop	r16
+     572:	ff 90       	pop	r15
+     574:	ef 90       	pop	r14
+     576:	df 90       	pop	r13
+     578:	cf 90       	pop	r12
+     57a:	08 95       	ret
+
+0000057c <TwoWire::write(char const*)>:
+_ZN7TwoWire5writeEPKc():
+     57c:	61 15       	cp	r22, r1
+     57e:	71 05       	cpc	r23, r1
+     580:	49 f0       	breq	.+18     	; 0x594 <TwoWire::write(char const*)+0x18>
+     582:	fb 01       	movw	r30, r22
+     584:	01 90       	ld	r0, Z+
+     586:	00 20       	and	r0, r0
+     588:	e9 f7       	brne	.-6      	; 0x584 <TwoWire::write(char const*)+0x8>
+     58a:	31 97       	sbiw	r30, 0x01	; 1
+     58c:	af 01       	movw	r20, r30
+     58e:	46 1b       	sub	r20, r22
+     590:	57 0b       	sbc	r21, r23
+     592:	d2 cf       	rjmp	.-92     	; 0x538 <TwoWire::write(unsigned char const*, unsigned int)>
+     594:	90 e0       	ldi	r25, 0x00	; 0
+     596:	80 e0       	ldi	r24, 0x00	; 0
+     598:	08 95       	ret
+
+0000059a <TwoWire::onRequest(void (*)())>:
+_ZN7TwoWire9onRequestEPFvvE():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src/Wire.cpp:605
+
+// sets function called on slave read
+void TwoWire::onRequest( void (*function)(void) ) {
+  USI_TWI_On_Slave_Transmit = function;
+     59a:	70 93 83 00 	sts	0x0083, r23	; 0x800083 <USI_TWI_On_Slave_Transmit+0x1>
+     59e:	60 93 82 00 	sts	0x0082, r22	; 0x800082 <USI_TWI_On_Slave_Transmit>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\libraries\Wire\src/Wire.cpp:606
+}
+     5a2:	08 95       	ret
+
+000005a4 <random(long)>:
+_Z6randoml():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:38
+    srandom(seed);
+  }
+}
+
+long random(long howbig)
+{
+     5a4:	cf 92       	push	r12
+     5a6:	df 92       	push	r13
+     5a8:	ef 92       	push	r14
+     5aa:	ff 92       	push	r15
+     5ac:	6b 01       	movw	r12, r22
+     5ae:	7c 01       	movw	r14, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:39
+  if (howbig == 0) {
+     5b0:	c1 14       	cp	r12, r1
+     5b2:	d1 04       	cpc	r13, r1
+     5b4:	e1 04       	cpc	r14, r1
+     5b6:	f1 04       	cpc	r15, r1
+     5b8:	31 f0       	breq	.+12     	; 0x5c6 <random(long)+0x22>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:42
+    return 0;
+  }
+  return random() % howbig;
+     5ba:	8b d4       	rcall	.+2326   	; 0xed2 <random>
+     5bc:	a7 01       	movw	r20, r14
+     5be:	96 01       	movw	r18, r12
+     5c0:	da d2       	rcall	.+1460   	; 0xb76 <__divmodsi4>
+     5c2:	6b 01       	movw	r12, r22
+     5c4:	7c 01       	movw	r14, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:43
+}
+     5c6:	c7 01       	movw	r24, r14
+     5c8:	b6 01       	movw	r22, r12
+     5ca:	ff 90       	pop	r15
+     5cc:	ef 90       	pop	r14
+     5ce:	df 90       	pop	r13
+     5d0:	cf 90       	pop	r12
+     5d2:	08 95       	ret
+
+000005d4 <random(long, long)>:
+_Z6randomll():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:46
+
+long random(long howsmall, long howbig)
+{
+     5d4:	cf 92       	push	r12
+     5d6:	df 92       	push	r13
+     5d8:	ef 92       	push	r14
+     5da:	ff 92       	push	r15
+     5dc:	6b 01       	movw	r12, r22
+     5de:	7c 01       	movw	r14, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:47
+  if (howsmall >= howbig) {
+     5e0:	c2 16       	cp	r12, r18
+     5e2:	d3 06       	cpc	r13, r19
+     5e4:	e4 06       	cpc	r14, r20
+     5e6:	f5 06       	cpc	r15, r21
+     5e8:	5c f4       	brge	.+22     	; 0x600 <random(long, long)+0x2c>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:50
+    return howsmall;
+  }
+  long diff = howbig - howsmall;
+     5ea:	ca 01       	movw	r24, r20
+     5ec:	b9 01       	movw	r22, r18
+     5ee:	6c 19       	sub	r22, r12
+     5f0:	7d 09       	sbc	r23, r13
+     5f2:	8e 09       	sbc	r24, r14
+     5f4:	9f 09       	sbc	r25, r15
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:51
+  return random(diff) + howsmall;
+     5f6:	d6 df       	rcall	.-84     	; 0x5a4 <random(long)>
+     5f8:	c6 0e       	add	r12, r22
+     5fa:	d7 1e       	adc	r13, r23
+     5fc:	e8 1e       	adc	r14, r24
+     5fe:	f9 1e       	adc	r15, r25
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WMath.cpp:52
+}
+     600:	c7 01       	movw	r24, r14
+     602:	b6 01       	movw	r22, r12
+     604:	ff 90       	pop	r15
+     606:	ef 90       	pop	r14
+     608:	df 90       	pop	r13
+     60a:	cf 90       	pop	r12
+     60c:	08 95       	ret
+
+0000060e <String::StringIfHelper() const>:
+_ZNK6String14StringIfHelperEv():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:341
+
+unsigned char String::concat(const __FlashStringHelper * str)
+{
+  if (!str) return 0;
+  int length = strlen_P((const char *) str);
+  if (length == 0) return 1;
+     60e:	08 95       	ret
+
+00000610 <String::~String()>:
+_ZN6StringD2Ev():
+     610:	fc 01       	movw	r30, r24
+     612:	80 81       	ld	r24, Z
+     614:	91 81       	ldd	r25, Z+1	; 0x01
+     616:	89 c3       	rjmp	.+1810   	; 0xd2a <free>
+
+00000618 <String::invalidate()>:
+_ZN6String10invalidateEv():
+     618:	cf 93       	push	r28
+     61a:	df 93       	push	r29
+     61c:	ec 01       	movw	r28, r24
+     61e:	88 81       	ld	r24, Y
+     620:	99 81       	ldd	r25, Y+1	; 0x01
+     622:	00 97       	sbiw	r24, 0x00	; 0
+     624:	09 f0       	breq	.+2      	; 0x628 <String::invalidate()+0x10>
+     626:	81 d3       	rcall	.+1794   	; 0xd2a <free>
+     628:	19 82       	std	Y+1, r1	; 0x01
+     62a:	18 82       	st	Y, r1
+     62c:	1d 82       	std	Y+5, r1	; 0x05
+     62e:	1c 82       	std	Y+4, r1	; 0x04
+     630:	1b 82       	std	Y+3, r1	; 0x03
+     632:	1a 82       	std	Y+2, r1	; 0x02
+     634:	df 91       	pop	r29
+     636:	cf 91       	pop	r28
+     638:	08 95       	ret
+
+0000063a <String::changeBuffer(unsigned int)>:
+_ZN6String12changeBufferEj():
+     63a:	0f 93       	push	r16
+     63c:	1f 93       	push	r17
+     63e:	cf 93       	push	r28
+     640:	df 93       	push	r29
+     642:	ec 01       	movw	r28, r24
+     644:	8b 01       	movw	r16, r22
+     646:	6f 5f       	subi	r22, 0xFF	; 255
+     648:	7f 4f       	sbci	r23, 0xFF	; 255
+     64a:	88 81       	ld	r24, Y
+     64c:	99 81       	ldd	r25, Y+1	; 0x01
+     64e:	98 d4       	rcall	.+2352   	; 0xf80 <realloc>
+     650:	00 97       	sbiw	r24, 0x00	; 0
+     652:	51 f0       	breq	.+20     	; 0x668 <String::changeBuffer(unsigned int)+0x2e>
+     654:	99 83       	std	Y+1, r25	; 0x01
+     656:	88 83       	st	Y, r24
+     658:	1b 83       	std	Y+3, r17	; 0x03
+     65a:	0a 83       	std	Y+2, r16	; 0x02
+     65c:	81 e0       	ldi	r24, 0x01	; 1
+     65e:	df 91       	pop	r29
+     660:	cf 91       	pop	r28
+     662:	1f 91       	pop	r17
+     664:	0f 91       	pop	r16
+     666:	08 95       	ret
+     668:	80 e0       	ldi	r24, 0x00	; 0
+     66a:	f9 cf       	rjmp	.-14     	; 0x65e <String::changeBuffer(unsigned int)+0x24>
+
+0000066c <String::reserve(unsigned int)>:
+_ZN6String7reserveEj():
+     66c:	cf 93       	push	r28
+     66e:	df 93       	push	r29
+     670:	ec 01       	movw	r28, r24
+     672:	88 81       	ld	r24, Y
+     674:	99 81       	ldd	r25, Y+1	; 0x01
+     676:	89 2b       	or	r24, r25
+     678:	49 f0       	breq	.+18     	; 0x68c <String::reserve(unsigned int)+0x20>
+     67a:	8a 81       	ldd	r24, Y+2	; 0x02
+     67c:	9b 81       	ldd	r25, Y+3	; 0x03
+     67e:	86 17       	cp	r24, r22
+     680:	97 07       	cpc	r25, r23
+     682:	20 f0       	brcs	.+8      	; 0x68c <String::reserve(unsigned int)+0x20>
+     684:	81 e0       	ldi	r24, 0x01	; 1
+     686:	df 91       	pop	r29
+     688:	cf 91       	pop	r28
+     68a:	08 95       	ret
+     68c:	ce 01       	movw	r24, r28
+     68e:	d5 df       	rcall	.-86     	; 0x63a <String::changeBuffer(unsigned int)>
+     690:	88 23       	and	r24, r24
+     692:	c9 f3       	breq	.-14     	; 0x686 <String::reserve(unsigned int)+0x1a>
+     694:	8c 81       	ldd	r24, Y+4	; 0x04
+     696:	9d 81       	ldd	r25, Y+5	; 0x05
+     698:	89 2b       	or	r24, r25
+     69a:	a1 f7       	brne	.-24     	; 0x684 <String::reserve(unsigned int)+0x18>
+     69c:	e8 81       	ld	r30, Y
+     69e:	f9 81       	ldd	r31, Y+1	; 0x01
+     6a0:	10 82       	st	Z, r1
+     6a2:	f0 cf       	rjmp	.-32     	; 0x684 <String::reserve(unsigned int)+0x18>
+
+000006a4 <String::copy(char const*, unsigned int)>:
+_ZN6String4copyEPKcj():
+     6a4:	ef 92       	push	r14
+     6a6:	ff 92       	push	r15
+     6a8:	0f 93       	push	r16
+     6aa:	1f 93       	push	r17
+     6ac:	cf 93       	push	r28
+     6ae:	df 93       	push	r29
+     6b0:	ec 01       	movw	r28, r24
+     6b2:	7b 01       	movw	r14, r22
+     6b4:	8a 01       	movw	r16, r20
+     6b6:	ba 01       	movw	r22, r20
+     6b8:	d9 df       	rcall	.-78     	; 0x66c <String::reserve(unsigned int)>
+     6ba:	81 11       	cpse	r24, r1
+     6bc:	0a c0       	rjmp	.+20     	; 0x6d2 <String::copy(char const*, unsigned int)+0x2e>
+     6be:	ce 01       	movw	r24, r28
+     6c0:	ab df       	rcall	.-170    	; 0x618 <String::invalidate()>
+     6c2:	ce 01       	movw	r24, r28
+     6c4:	df 91       	pop	r29
+     6c6:	cf 91       	pop	r28
+     6c8:	1f 91       	pop	r17
+     6ca:	0f 91       	pop	r16
+     6cc:	ff 90       	pop	r15
+     6ce:	ef 90       	pop	r14
+     6d0:	08 95       	ret
+     6d2:	1d 83       	std	Y+5, r17	; 0x05
+     6d4:	0c 83       	std	Y+4, r16	; 0x04
+     6d6:	b7 01       	movw	r22, r14
+     6d8:	88 81       	ld	r24, Y
+     6da:	99 81       	ldd	r25, Y+1	; 0x01
+     6dc:	10 d5       	rcall	.+2592   	; 0x10fe <strcpy>
+     6de:	f1 cf       	rjmp	.-30     	; 0x6c2 <String::copy(char const*, unsigned int)+0x1e>
+
+000006e0 <String::String(char const*)>:
+_ZN6String4initEv():
+     6e0:	fc 01       	movw	r30, r24
+     6e2:	11 82       	std	Z+1, r1	; 0x01
+     6e4:	10 82       	st	Z, r1
+     6e6:	13 82       	std	Z+3, r1	; 0x03
+     6e8:	12 82       	std	Z+2, r1	; 0x02
+     6ea:	15 82       	std	Z+5, r1	; 0x05
+     6ec:	14 82       	std	Z+4, r1	; 0x04
+_ZN6StringC2EPKc():
+     6ee:	61 15       	cp	r22, r1
+     6f0:	71 05       	cpc	r23, r1
+     6f2:	49 f0       	breq	.+18     	; 0x706 <String::String(char const*)+0x26>
+     6f4:	fb 01       	movw	r30, r22
+     6f6:	01 90       	ld	r0, Z+
+     6f8:	00 20       	and	r0, r0
+     6fa:	e9 f7       	brne	.-6      	; 0x6f6 <String::String(char const*)+0x16>
+     6fc:	31 97       	sbiw	r30, 0x01	; 1
+     6fe:	af 01       	movw	r20, r30
+     700:	46 1b       	sub	r20, r22
+     702:	57 0b       	sbc	r21, r23
+     704:	cf cf       	rjmp	.-98     	; 0x6a4 <String::copy(char const*, unsigned int)>
+     706:	08 95       	ret
+
+00000708 <String::operator=(char const*) [clone .part.3]>:
+_ZN6StringaSEPKc():
+     708:	fb 01       	movw	r30, r22
+     70a:	01 90       	ld	r0, Z+
+     70c:	00 20       	and	r0, r0
+     70e:	e9 f7       	brne	.-6      	; 0x70a <String::operator=(char const*) [clone .part.3]+0x2>
+     710:	31 97       	sbiw	r30, 0x01	; 1
+     712:	af 01       	movw	r20, r30
+     714:	46 1b       	sub	r20, r22
+     716:	57 0b       	sbc	r21, r23
+     718:	c5 cf       	rjmp	.-118    	; 0x6a4 <String::copy(char const*, unsigned int)>
+
+0000071a <String::String(int, unsigned char)>:
+_ZN6StringC2Eih():
+     71a:	0f 93       	push	r16
+     71c:	1f 93       	push	r17
+     71e:	cf 93       	push	r28
+     720:	df 93       	push	r29
+     722:	cd b7       	in	r28, 0x3d	; 61
+     724:	de b7       	in	r29, 0x3e	; 62
+     726:	62 97       	sbiw	r28, 0x12	; 18
+     728:	0f b6       	in	r0, 0x3f	; 63
+     72a:	f8 94       	cli
+     72c:	de bf       	out	0x3e, r29	; 62
+     72e:	0f be       	out	0x3f, r0	; 63
+     730:	cd bf       	out	0x3d, r28	; 61
+     732:	8c 01       	movw	r16, r24
+     734:	cb 01       	movw	r24, r22
+_ZN6String4initEv():
+     736:	f8 01       	movw	r30, r16
+     738:	11 82       	std	Z+1, r1	; 0x01
+     73a:	10 82       	st	Z, r1
+     73c:	13 82       	std	Z+3, r1	; 0x03
+     73e:	12 82       	std	Z+2, r1	; 0x02
+     740:	15 82       	std	Z+5, r1	; 0x05
+     742:	14 82       	std	Z+4, r1	; 0x04
+_ZN6StringC2Eih():
+     744:	50 e0       	ldi	r21, 0x00	; 0
+itoa():
+     746:	be 01       	movw	r22, r28
+     748:	6f 5f       	subi	r22, 0xFF	; 255
+     74a:	7f 4f       	sbci	r23, 0xFF	; 255
+     74c:	df d4       	rcall	.+2494   	; 0x110c <itoa>
+_ZN6StringaSEPKc():
+     74e:	be 01       	movw	r22, r28
+     750:	6f 5f       	subi	r22, 0xFF	; 255
+     752:	7f 4f       	sbci	r23, 0xFF	; 255
+     754:	c8 01       	movw	r24, r16
+     756:	d8 df       	rcall	.-80     	; 0x708 <String::operator=(char const*) [clone .part.3]>
+_ZN6StringC2Eih():
+     758:	62 96       	adiw	r28, 0x12	; 18
+     75a:	0f b6       	in	r0, 0x3f	; 63
+     75c:	f8 94       	cli
+     75e:	de bf       	out	0x3e, r29	; 62
+     760:	0f be       	out	0x3f, r0	; 63
+     762:	cd bf       	out	0x3d, r28	; 61
+     764:	df 91       	pop	r29
+     766:	cf 91       	pop	r28
+     768:	1f 91       	pop	r17
+     76a:	0f 91       	pop	r16
+     76c:	08 95       	ret
+
+0000076e <String::move(String&)>:
+_ZN6String4moveERS_():
+     76e:	0f 93       	push	r16
+     770:	1f 93       	push	r17
+     772:	cf 93       	push	r28
+     774:	df 93       	push	r29
+     776:	8c 01       	movw	r16, r24
+     778:	eb 01       	movw	r28, r22
+     77a:	fc 01       	movw	r30, r24
+     77c:	80 81       	ld	r24, Z
+     77e:	91 81       	ldd	r25, Z+1	; 0x01
+     780:	00 97       	sbiw	r24, 0x00	; 0
+     782:	f1 f0       	breq	.+60     	; 0x7c0 <String::move(String&)+0x52>
+     784:	68 81       	ld	r22, Y
+     786:	79 81       	ldd	r23, Y+1	; 0x01
+_ZNK6StringcvMS_KFvvEEv():
+     788:	61 15       	cp	r22, r1
+     78a:	71 05       	cpc	r23, r1
+     78c:	c1 f0       	breq	.+48     	; 0x7be <String::move(String&)+0x50>
+_ZN6String4moveERS_():
+     78e:	27 e0       	ldi	r18, 0x07	; 7
+     790:	33 e0       	ldi	r19, 0x03	; 3
+     792:	23 2b       	or	r18, r19
+     794:	a1 f0       	breq	.+40     	; 0x7be <String::move(String&)+0x50>
+     796:	42 81       	ldd	r20, Z+2	; 0x02
+     798:	53 81       	ldd	r21, Z+3	; 0x03
+     79a:	2c 81       	ldd	r18, Y+4	; 0x04
+     79c:	3d 81       	ldd	r19, Y+5	; 0x05
+     79e:	42 17       	cp	r20, r18
+     7a0:	53 07       	cpc	r21, r19
+     7a2:	68 f0       	brcs	.+26     	; 0x7be <String::move(String&)+0x50>
+     7a4:	ac d4       	rcall	.+2392   	; 0x10fe <strcpy>
+     7a6:	8c 81       	ldd	r24, Y+4	; 0x04
+     7a8:	9d 81       	ldd	r25, Y+5	; 0x05
+     7aa:	f8 01       	movw	r30, r16
+     7ac:	95 83       	std	Z+5, r25	; 0x05
+     7ae:	84 83       	std	Z+4, r24	; 0x04
+     7b0:	1d 82       	std	Y+5, r1	; 0x05
+     7b2:	1c 82       	std	Y+4, r1	; 0x04
+     7b4:	df 91       	pop	r29
+     7b6:	cf 91       	pop	r28
+     7b8:	1f 91       	pop	r17
+     7ba:	0f 91       	pop	r16
+     7bc:	08 95       	ret
+     7be:	b5 d2       	rcall	.+1386   	; 0xd2a <free>
+     7c0:	88 81       	ld	r24, Y
+     7c2:	99 81       	ldd	r25, Y+1	; 0x01
+     7c4:	f8 01       	movw	r30, r16
+     7c6:	91 83       	std	Z+1, r25	; 0x01
+     7c8:	80 83       	st	Z, r24
+     7ca:	8a 81       	ldd	r24, Y+2	; 0x02
+     7cc:	9b 81       	ldd	r25, Y+3	; 0x03
+     7ce:	93 83       	std	Z+3, r25	; 0x03
+     7d0:	82 83       	std	Z+2, r24	; 0x02
+     7d2:	8c 81       	ldd	r24, Y+4	; 0x04
+     7d4:	9d 81       	ldd	r25, Y+5	; 0x05
+     7d6:	95 83       	std	Z+5, r25	; 0x05
+     7d8:	84 83       	std	Z+4, r24	; 0x04
+     7da:	19 82       	std	Y+1, r1	; 0x01
+     7dc:	18 82       	st	Y, r1
+     7de:	1b 82       	std	Y+3, r1	; 0x03
+     7e0:	1a 82       	std	Y+2, r1	; 0x02
+     7e2:	e6 cf       	rjmp	.-52     	; 0x7b0 <String::move(String&)+0x42>
+
+000007e4 <String::operator=(String const&)>:
+_ZN6StringaSERKS_():
+     7e4:	cf 93       	push	r28
+     7e6:	df 93       	push	r29
+     7e8:	ec 01       	movw	r28, r24
+     7ea:	fb 01       	movw	r30, r22
+     7ec:	86 17       	cp	r24, r22
+     7ee:	97 07       	cpc	r25, r23
+     7f0:	41 f0       	breq	.+16     	; 0x802 <String::operator=(String const&)+0x1e>
+     7f2:	60 81       	ld	r22, Z
+     7f4:	71 81       	ldd	r23, Z+1	; 0x01
+     7f6:	61 15       	cp	r22, r1
+     7f8:	71 05       	cpc	r23, r1
+     7fa:	39 f0       	breq	.+14     	; 0x80a <String::operator=(String const&)+0x26>
+     7fc:	44 81       	ldd	r20, Z+4	; 0x04
+     7fe:	55 81       	ldd	r21, Z+5	; 0x05
+     800:	51 df       	rcall	.-350    	; 0x6a4 <String::copy(char const*, unsigned int)>
+     802:	ce 01       	movw	r24, r28
+     804:	df 91       	pop	r29
+     806:	cf 91       	pop	r28
+     808:	08 95       	ret
+     80a:	06 df       	rcall	.-500    	; 0x618 <String::invalidate()>
+     80c:	fa cf       	rjmp	.-12     	; 0x802 <String::operator=(String const&)+0x1e>
+
+0000080e <String::String(String const&)>:
+_ZN6String4initEv():
+     80e:	fc 01       	movw	r30, r24
+     810:	11 82       	std	Z+1, r1	; 0x01
+     812:	10 82       	st	Z, r1
+     814:	13 82       	std	Z+3, r1	; 0x03
+     816:	12 82       	std	Z+2, r1	; 0x02
+     818:	15 82       	std	Z+5, r1	; 0x05
+     81a:	14 82       	std	Z+4, r1	; 0x04
+_ZN6StringC2ERKS_():
+     81c:	e3 cf       	rjmp	.-58     	; 0x7e4 <String::operator=(String const&)>
+
+0000081e <String::operator=(String&&)>:
+_ZN6StringaSEOS_():
+     81e:	cf 93       	push	r28
+     820:	df 93       	push	r29
+     822:	ec 01       	movw	r28, r24
+     824:	86 17       	cp	r24, r22
+     826:	97 07       	cpc	r25, r23
+     828:	09 f0       	breq	.+2      	; 0x82c <String::operator=(String&&)+0xe>
+     82a:	a1 df       	rcall	.-190    	; 0x76e <String::move(String&)>
+     82c:	ce 01       	movw	r24, r28
+     82e:	df 91       	pop	r29
+     830:	cf 91       	pop	r28
+     832:	08 95       	ret
+
+00000834 <String::concat(char const*, unsigned int)>:
+_ZN6String6concatEPKcj():
+     834:	ef 92       	push	r14
+     836:	ff 92       	push	r15
+     838:	0f 93       	push	r16
+     83a:	1f 93       	push	r17
+     83c:	cf 93       	push	r28
+     83e:	df 93       	push	r29
+     840:	61 15       	cp	r22, r1
+     842:	71 05       	cpc	r23, r1
+     844:	41 f4       	brne	.+16     	; 0x856 <String::concat(char const*, unsigned int)+0x22>
+     846:	80 e0       	ldi	r24, 0x00	; 0
+     848:	df 91       	pop	r29
+     84a:	cf 91       	pop	r28
+     84c:	1f 91       	pop	r17
+     84e:	0f 91       	pop	r16
+     850:	ff 90       	pop	r15
+     852:	ef 90       	pop	r14
+     854:	08 95       	ret
+     856:	41 15       	cp	r20, r1
+     858:	51 05       	cpc	r21, r1
+     85a:	a1 f0       	breq	.+40     	; 0x884 <String::concat(char const*, unsigned int)+0x50>
+     85c:	7b 01       	movw	r14, r22
+     85e:	ec 01       	movw	r28, r24
+     860:	0c 81       	ldd	r16, Y+4	; 0x04
+     862:	1d 81       	ldd	r17, Y+5	; 0x05
+     864:	04 0f       	add	r16, r20
+     866:	15 1f       	adc	r17, r21
+     868:	b8 01       	movw	r22, r16
+     86a:	00 df       	rcall	.-512    	; 0x66c <String::reserve(unsigned int)>
+     86c:	88 23       	and	r24, r24
+     86e:	59 f3       	breq	.-42     	; 0x846 <String::concat(char const*, unsigned int)+0x12>
+     870:	28 81       	ld	r18, Y
+     872:	39 81       	ldd	r19, Y+1	; 0x01
+     874:	8c 81       	ldd	r24, Y+4	; 0x04
+     876:	9d 81       	ldd	r25, Y+5	; 0x05
+     878:	b7 01       	movw	r22, r14
+     87a:	82 0f       	add	r24, r18
+     87c:	93 1f       	adc	r25, r19
+     87e:	3f d4       	rcall	.+2174   	; 0x10fe <strcpy>
+     880:	1d 83       	std	Y+5, r17	; 0x05
+     882:	0c 83       	std	Y+4, r16	; 0x04
+     884:	81 e0       	ldi	r24, 0x01	; 1
+     886:	e0 cf       	rjmp	.-64     	; 0x848 <String::concat(char const*, unsigned int)+0x14>
+
+00000888 <operator+(StringSumHelper const&, String const&)>:
+_ZplRK15StringSumHelperRK6String():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:354
+/*********************************************/
+/*  Concatenate                              */
+/*********************************************/
+
+StringSumHelper & operator + (const StringSumHelper &lhs, const String &rhs)
+{
+     888:	cf 93       	push	r28
+     88a:	df 93       	push	r29
+     88c:	ec 01       	movw	r28, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:356
+  StringSumHelper &a = const_cast<StringSumHelper&>(lhs);
+  if (!a.concat(rhs.buffer, rhs.len)) a.invalidate();
+     88e:	fb 01       	movw	r30, r22
+     890:	44 81       	ldd	r20, Z+4	; 0x04
+     892:	55 81       	ldd	r21, Z+5	; 0x05
+     894:	60 81       	ld	r22, Z
+     896:	71 81       	ldd	r23, Z+1	; 0x01
+     898:	cd df       	rcall	.-102    	; 0x834 <String::concat(char const*, unsigned int)>
+     89a:	81 11       	cpse	r24, r1
+     89c:	02 c0       	rjmp	.+4      	; 0x8a2 <operator+(StringSumHelper const&, String const&)+0x1a>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:356 (discriminator 1)
+     89e:	ce 01       	movw	r24, r28
+     8a0:	bb de       	rcall	.-650    	; 0x618 <String::invalidate()>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:358
+  return a;
+}
+     8a2:	ce 01       	movw	r24, r28
+     8a4:	df 91       	pop	r29
+     8a6:	cf 91       	pop	r28
+     8a8:	08 95       	ret
+
+000008aa <operator+(StringSumHelper const&, char const*)>:
+_ZplRK15StringSumHelperPKc():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:361
+
+StringSumHelper & operator + (const StringSumHelper &lhs, const char *cstr)
+{
+     8aa:	cf 93       	push	r28
+     8ac:	df 93       	push	r29
+     8ae:	ec 01       	movw	r28, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:363
+  StringSumHelper &a = const_cast<StringSumHelper&>(lhs);
+  if (!cstr || !a.concat(cstr, strlen(cstr))) a.invalidate();
+     8b0:	61 15       	cp	r22, r1
+     8b2:	71 05       	cpc	r23, r1
+     8b4:	31 f4       	brne	.+12     	; 0x8c2 <operator+(StringSumHelper const&, char const*)+0x18>
+     8b6:	ce 01       	movw	r24, r28
+     8b8:	af de       	rcall	.-674    	; 0x618 <String::invalidate()>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:365
+  return a;
+}
+     8ba:	ce 01       	movw	r24, r28
+     8bc:	df 91       	pop	r29
+     8be:	cf 91       	pop	r28
+     8c0:	08 95       	ret
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/WString.cpp:363 (discriminator 2)
+}
+
+StringSumHelper & operator + (const StringSumHelper &lhs, const char *cstr)
+{
+  StringSumHelper &a = const_cast<StringSumHelper&>(lhs);
+  if (!cstr || !a.concat(cstr, strlen(cstr))) a.invalidate();
+     8c2:	fb 01       	movw	r30, r22
+     8c4:	01 90       	ld	r0, Z+
+     8c6:	00 20       	and	r0, r0
+     8c8:	e9 f7       	brne	.-6      	; 0x8c4 <operator+(StringSumHelper const&, char const*)+0x1a>
+     8ca:	31 97       	sbiw	r30, 0x01	; 1
+     8cc:	af 01       	movw	r20, r30
+     8ce:	46 1b       	sub	r20, r22
+     8d0:	57 0b       	sbc	r21, r23
+     8d2:	b0 df       	rcall	.-160    	; 0x834 <String::concat(char const*, unsigned int)>
+     8d4:	88 23       	and	r24, r24
+     8d6:	79 f3       	breq	.-34     	; 0x8b6 <operator+(StringSumHelper const&, char const*)+0xc>
+     8d8:	f0 cf       	rjmp	.-32     	; 0x8ba <operator+(StringSumHelper const&, char const*)+0x10>
+
+000008da <main>:
+main():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/main.cpp:5
+#include <Arduino.h>
+
+int main(void)
+{
+  init();
+     8da:	9e d0       	rcall	.+316    	; 0xa18 <init>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/main.cpp:7
+
+  setup();
+     8dc:	7e dc       	rcall	.-1796   	; 0x1da <setup>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/main.cpp:10 (discriminator 1)
+
+  for (;;)
+    loop();
+     8de:	90 dc       	rcall	.-1760   	; 0x200 <loop>
+     8e0:	fe cf       	rjmp	.-4      	; 0x8de <main+0x4>
+
+000008e2 <__vector_11>:
+__vector_11():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:983
+
+uint8_t read_factory_calibration(void)
+{
+  uint8_t value = boot_signature_byte_get(1);
+  return value;
+}
+     8e2:	1f 92       	push	r1
+     8e4:	0f 92       	push	r0
+     8e6:	0f b6       	in	r0, 0x3f	; 63
+     8e8:	0f 92       	push	r0
+     8ea:	11 24       	eor	r1, r1
+     8ec:	2f 93       	push	r18
+     8ee:	3f 93       	push	r19
+     8f0:	8f 93       	push	r24
+     8f2:	9f 93       	push	r25
+     8f4:	af 93       	push	r26
+     8f6:	bf 93       	push	r27
+     8f8:	80 91 85 00 	lds	r24, 0x0085	; 0x800085 <millis_timer_millis>
+     8fc:	90 91 86 00 	lds	r25, 0x0086	; 0x800086 <millis_timer_millis+0x1>
+     900:	a0 91 87 00 	lds	r26, 0x0087	; 0x800087 <millis_timer_millis+0x2>
+     904:	b0 91 88 00 	lds	r27, 0x0088	; 0x800088 <millis_timer_millis+0x3>
+     908:	30 91 84 00 	lds	r19, 0x0084	; 0x800084 <millis_timer_fract>
+     90c:	26 e0       	ldi	r18, 0x06	; 6
+     90e:	23 0f       	add	r18, r19
+     910:	2d 37       	cpi	r18, 0x7D	; 125
+     912:	68 f1       	brcs	.+90     	; 0x96e <__vector_11+0x8c>
+     914:	29 e8       	ldi	r18, 0x89	; 137
+     916:	23 0f       	add	r18, r19
+     918:	03 96       	adiw	r24, 0x03	; 3
+     91a:	a1 1d       	adc	r26, r1
+     91c:	b1 1d       	adc	r27, r1
+     91e:	20 93 84 00 	sts	0x0084, r18	; 0x800084 <millis_timer_fract>
+     922:	80 93 85 00 	sts	0x0085, r24	; 0x800085 <millis_timer_millis>
+     926:	90 93 86 00 	sts	0x0086, r25	; 0x800086 <millis_timer_millis+0x1>
+     92a:	a0 93 87 00 	sts	0x0087, r26	; 0x800087 <millis_timer_millis+0x2>
+     92e:	b0 93 88 00 	sts	0x0088, r27	; 0x800088 <millis_timer_millis+0x3>
+     932:	80 91 89 00 	lds	r24, 0x0089	; 0x800089 <millis_timer_overflow_count>
+     936:	90 91 8a 00 	lds	r25, 0x008A	; 0x80008a <millis_timer_overflow_count+0x1>
+     93a:	a0 91 8b 00 	lds	r26, 0x008B	; 0x80008b <millis_timer_overflow_count+0x2>
+     93e:	b0 91 8c 00 	lds	r27, 0x008C	; 0x80008c <millis_timer_overflow_count+0x3>
+     942:	01 96       	adiw	r24, 0x01	; 1
+     944:	a1 1d       	adc	r26, r1
+     946:	b1 1d       	adc	r27, r1
+     948:	80 93 89 00 	sts	0x0089, r24	; 0x800089 <millis_timer_overflow_count>
+     94c:	90 93 8a 00 	sts	0x008A, r25	; 0x80008a <millis_timer_overflow_count+0x1>
+     950:	a0 93 8b 00 	sts	0x008B, r26	; 0x80008b <millis_timer_overflow_count+0x2>
+     954:	b0 93 8c 00 	sts	0x008C, r27	; 0x80008c <millis_timer_overflow_count+0x3>
+     958:	bf 91       	pop	r27
+     95a:	af 91       	pop	r26
+     95c:	9f 91       	pop	r25
+     95e:	8f 91       	pop	r24
+     960:	3f 91       	pop	r19
+     962:	2f 91       	pop	r18
+     964:	0f 90       	pop	r0
+     966:	0f be       	out	0x3f, r0	; 63
+     968:	0f 90       	pop	r0
+     96a:	1f 90       	pop	r1
+     96c:	18 95       	reti
+     96e:	02 96       	adiw	r24, 0x02	; 2
+     970:	a1 1d       	adc	r26, r1
+     972:	b1 1d       	adc	r27, r1
+     974:	d4 cf       	rjmp	.-88     	; 0x91e <__vector_11+0x3c>
+
+00000976 <micros>:
+micros():
+     976:	3f b7       	in	r19, 0x3f	; 63
+     978:	f8 94       	cli
+     97a:	80 91 89 00 	lds	r24, 0x0089	; 0x800089 <millis_timer_overflow_count>
+     97e:	90 91 8a 00 	lds	r25, 0x008A	; 0x80008a <millis_timer_overflow_count+0x1>
+     982:	a0 91 8b 00 	lds	r26, 0x008B	; 0x80008b <millis_timer_overflow_count+0x2>
+     986:	b0 91 8c 00 	lds	r27, 0x008C	; 0x80008c <millis_timer_overflow_count+0x3>
+     98a:	22 b7       	in	r18, 0x32	; 50
+     98c:	08 b6       	in	r0, 0x38	; 56
+     98e:	00 fe       	sbrs	r0, 0
+     990:	05 c0       	rjmp	.+10     	; 0x99c <micros+0x26>
+     992:	2f 3f       	cpi	r18, 0xFF	; 255
+     994:	19 f0       	breq	.+6      	; 0x99c <micros+0x26>
+     996:	01 96       	adiw	r24, 0x01	; 1
+     998:	a1 1d       	adc	r26, r1
+     99a:	b1 1d       	adc	r27, r1
+     99c:	3f bf       	out	0x3f, r19	; 63
+     99e:	ba 2f       	mov	r27, r26
+     9a0:	a9 2f       	mov	r26, r25
+     9a2:	98 2f       	mov	r25, r24
+     9a4:	88 27       	eor	r24, r24
+     9a6:	bc 01       	movw	r22, r24
+     9a8:	cd 01       	movw	r24, r26
+     9aa:	62 0f       	add	r22, r18
+     9ac:	71 1d       	adc	r23, r1
+     9ae:	81 1d       	adc	r24, r1
+     9b0:	91 1d       	adc	r25, r1
+     9b2:	43 e0       	ldi	r20, 0x03	; 3
+     9b4:	66 0f       	add	r22, r22
+     9b6:	77 1f       	adc	r23, r23
+     9b8:	88 1f       	adc	r24, r24
+     9ba:	99 1f       	adc	r25, r25
+     9bc:	4a 95       	dec	r20
+     9be:	d1 f7       	brne	.-12     	; 0x9b4 <micros+0x3e>
+     9c0:	08 95       	ret
+
+000009c2 <yield>:
+__empty():
+     9c2:	08 95       	ret
+
+000009c4 <delay>:
+delay():
+     9c4:	cf 92       	push	r12
+     9c6:	df 92       	push	r13
+     9c8:	ef 92       	push	r14
+     9ca:	ff 92       	push	r15
+     9cc:	cf 93       	push	r28
+     9ce:	df 93       	push	r29
+     9d0:	6b 01       	movw	r12, r22
+     9d2:	7c 01       	movw	r14, r24
+     9d4:	d0 df       	rcall	.-96     	; 0x976 <micros>
+     9d6:	eb 01       	movw	r28, r22
+     9d8:	c1 14       	cp	r12, r1
+     9da:	d1 04       	cpc	r13, r1
+     9dc:	e1 04       	cpc	r14, r1
+     9de:	f1 04       	cpc	r15, r1
+     9e0:	61 f0       	breq	.+24     	; 0x9fa <delay+0x36>
+     9e2:	ef df       	rcall	.-34     	; 0x9c2 <yield>
+     9e4:	c8 df       	rcall	.-112    	; 0x976 <micros>
+     9e6:	6c 1b       	sub	r22, r28
+     9e8:	7d 0b       	sbc	r23, r29
+     9ea:	68 3e       	cpi	r22, 0xE8	; 232
+     9ec:	73 40       	sbci	r23, 0x03	; 3
+     9ee:	a0 f3       	brcs	.-24     	; 0x9d8 <delay+0x14>
+     9f0:	c1 14       	cp	r12, r1
+     9f2:	d1 04       	cpc	r13, r1
+     9f4:	e1 04       	cpc	r14, r1
+     9f6:	f1 04       	cpc	r15, r1
+     9f8:	39 f4       	brne	.+14     	; 0xa08 <delay+0x44>
+     9fa:	df 91       	pop	r29
+     9fc:	cf 91       	pop	r28
+     9fe:	ff 90       	pop	r15
+     a00:	ef 90       	pop	r14
+     a02:	df 90       	pop	r13
+     a04:	cf 90       	pop	r12
+     a06:	08 95       	ret
+     a08:	81 e0       	ldi	r24, 0x01	; 1
+     a0a:	c8 1a       	sub	r12, r24
+     a0c:	d1 08       	sbc	r13, r1
+     a0e:	e1 08       	sbc	r14, r1
+     a10:	f1 08       	sbc	r15, r1
+     a12:	c8 51       	subi	r28, 0x18	; 24
+     a14:	dc 4f       	sbci	r29, 0xFC	; 252
+     a16:	e6 cf       	rjmp	.-52     	; 0x9e4 <delay+0x20>
+
+00000a18 <init>:
+init():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1138
+*/
+
+  // Use the Millis Timer for fast PWM (unless it doesn't have an output).
+  #if (TIMER_TO_USE_FOR_MILLIS == 0)
+    #if defined(WGM01) // if Timer0 has PWM
+      TCCR0A = (1<<WGM01) | (1<<WGM00);
+     a18:	83 e0       	ldi	r24, 0x03	; 3
+     a1a:	80 bf       	out	0x30, r24	; 48
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1141
+    #endif
+    #if defined(TCCR0B) //The x61 has a wacky Timer0!
+      TCCR0B = (MillisTimer_Prescale_Index << CS00);
+     a1c:	83 bf       	out	0x33, r24	; 51
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1162
+    TCCR1A = 1<<WGM10;
+    TCCR1B = (1<<WGM12) | (MillisTimer_Prescale_Index << CS10);
+  #endif
+
+  // this needs to be called before setup() or some functions won't work there
+  sei();
+     a1e:	78 94       	sei
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1169
+  #ifndef DISABLEMILLIS
+    // Enable the overflow interrupt (this is the basic system tic-toc for millis)
+    #if defined(TIMSK) && defined(TOIE0) && (TIMER_TO_USE_FOR_MILLIS == 0)
+      sbi(TIMSK, TOIE0);
+    #elif defined(TIMSK0) && defined(TOIE0) && (TIMER_TO_USE_FOR_MILLIS == 0)
+      sbi(TIMSK0, TOIE0);
+     a20:	99 b7       	in	r25, 0x39	; 57
+     a22:	91 60       	ori	r25, 0x01	; 1
+     a24:	99 bf       	out	0x39, r25	; 57
+initToneTimerInternal():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:972
+    #elif (TIMER_TO_USE_FOR_TONE == 1 ) && defined(__AVR_ATtinyX7__)
+      TCCR1A = (1<<COM1A1)|(1<<COM1B1)|(1<<WGM10);
+      TCCR1B = (ToneTimer_Prescale_Index << CS10);
+    #elif (TIMER_TO_USE_FOR_TONE == 1) // x4, x8, x313,
+      // Use the Tone Timer for phase correct PWM
+      TCCR1A = (1<<WGM10);
+     a26:	91 e0       	ldi	r25, 0x01	; 1
+     a28:	9f bd       	out	0x2f, r25	; 47
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:973
+      TCCR1B = (0<<WGM12) | (0<<WGM13) | (ToneTimer_Prescale_Index << CS10); //set the clock
+     a2a:	8e bd       	out	0x2e, r24	; 46
+init():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1214
+  #if defined( INITIALIZE_ANALOG_TO_DIGITAL_CONVERTER ) && INITIALIZE_ANALOG_TO_DIGITAL_CONVERTER
+    #if defined(ADCSRA)
+      // set a2d prescale factor
+      // ADCSRA = (ADCSRA & ~((1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0))) | (ADC_ARDUINO_PRESCALER << ADPS0) | (1<<ADEN);
+      // dude, this is being called on startup. We know that ADCSRA is 0! Why add a RMW cycle?!
+      ADCSRA = (ADC_ARDUINO_PRESCALER << ADPS0) | (1<<ADEN);
+     a2c:	86 e8       	ldi	r24, 0x86	; 134
+     a2e:	86 b9       	out	0x06, r24	; 6
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring.c:1219
+      // enable a2d conversions
+      // sbi(ADCSRA, ADEN); //we already set this!!!
+    #endif
+  #endif
+}
+     a30:	08 95       	ret
+
+00000a32 <pinMode>:
+pinMode():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:33
+#define ARDUINO_MAIN
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+void pinMode(uint8_t pin, uint8_t mode)
+{
+     a32:	cf 93       	push	r28
+     a34:	df 93       	push	r29
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:34
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+     a36:	87 ff       	sbrs	r24, 7
+     a38:	07 c0       	rjmp	.+14     	; 0xa48 <pinMode+0x16>
+     a3a:	e8 2f       	mov	r30, r24
+     a3c:	ef 77       	andi	r30, 0x7F	; 127
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:34 (discriminator 1)
+     a3e:	8a e0       	ldi	r24, 0x0A	; 10
+     a40:	8e 1b       	sub	r24, r30
+     a42:	e8 30       	cpi	r30, 0x08	; 8
+     a44:	08 f0       	brcs	.+2      	; 0xa48 <pinMode+0x16>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:34
+     a46:	8f ef       	ldi	r24, 0xFF	; 255
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:35
+  uint8_t bit = digitalPinToBitMask(pin);
+     a48:	90 e0       	ldi	r25, 0x00	; 0
+     a4a:	fc 01       	movw	r30, r24
+     a4c:	e1 5d       	subi	r30, 0xD1	; 209
+     a4e:	ff 4f       	sbci	r31, 0xFF	; 255
+     a50:	24 91       	lpm	r18, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:36
+  uint8_t port = digitalPinToPort(pin);
+     a52:	85 5c       	subi	r24, 0xC5	; 197
+     a54:	9f 4f       	sbci	r25, 0xFF	; 255
+     a56:	fc 01       	movw	r30, r24
+     a58:	84 91       	lpm	r24, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:39
+  volatile uint8_t *reg, *out;
+
+  if (port == NOT_A_PIN) return;
+     a5a:	88 23       	and	r24, r24
+     a5c:	c9 f0       	breq	.+50     	; 0xa90 <pinMode+0x5e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:41
+
+  reg = portModeRegister(port);
+     a5e:	90 e0       	ldi	r25, 0x00	; 0
+     a60:	88 0f       	add	r24, r24
+     a62:	99 1f       	adc	r25, r25
+     a64:	fc 01       	movw	r30, r24
+     a66:	e3 5b       	subi	r30, 0xB3	; 179
+     a68:	ff 4f       	sbci	r31, 0xFF	; 255
+     a6a:	a5 91       	lpm	r26, Z+
+     a6c:	b4 91       	lpm	r27, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:42
+  out = portOutputRegister(port);
+     a6e:	fc 01       	movw	r30, r24
+     a70:	e9 5b       	subi	r30, 0xB9	; 185
+     a72:	ff 4f       	sbci	r31, 0xFF	; 255
+     a74:	c5 91       	lpm	r28, Z+
+     a76:	d4 91       	lpm	r29, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:44
+
+  if (mode == INPUT) {
+     a78:	61 11       	cpse	r22, r1
+     a7a:	0d c0       	rjmp	.+26     	; 0xa96 <pinMode+0x64>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:45
+    uint8_t oldSREG = SREG;
+     a7c:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:46
+                cli();
+     a7e:	f8 94       	cli
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:47
+    *reg &= ~bit;
+     a80:	8c 91       	ld	r24, X
+     a82:	20 95       	com	r18
+     a84:	82 23       	and	r24, r18
+     a86:	8c 93       	st	X, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:48
+    *out &= ~bit;
+     a88:	88 81       	ld	r24, Y
+     a8a:	28 23       	and	r18, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:54
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+    uint8_t oldSREG = SREG;
+                cli();
+    *reg &= ~bit;
+    *out |= bit;
+     a8c:	28 83       	st	Y, r18
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:55
+    SREG = oldSREG;
+     a8e:	9f bf       	out	0x3f, r25	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:62
+    uint8_t oldSREG = SREG;
+                cli();
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+     a90:	df 91       	pop	r29
+     a92:	cf 91       	pop	r28
+     a94:	08 95       	ret
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:50
+    uint8_t oldSREG = SREG;
+                cli();
+    *reg &= ~bit;
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+     a96:	62 30       	cpi	r22, 0x02	; 2
+     a98:	51 f4       	brne	.+20     	; 0xaae <pinMode+0x7c>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:51
+    uint8_t oldSREG = SREG;
+     a9a:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:52
+                cli();
+     a9c:	f8 94       	cli
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:53
+    *reg &= ~bit;
+     a9e:	3c 91       	ld	r19, X
+     aa0:	82 2f       	mov	r24, r18
+     aa2:	80 95       	com	r24
+     aa4:	83 23       	and	r24, r19
+     aa6:	8c 93       	st	X, r24
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:54
+    *out |= bit;
+     aa8:	e8 81       	ld	r30, Y
+     aaa:	2e 2b       	or	r18, r30
+     aac:	ef cf       	rjmp	.-34     	; 0xa8c <pinMode+0x5a>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:57
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+     aae:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:58
+                cli();
+     ab0:	f8 94       	cli
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:59
+    *reg |= bit;
+     ab2:	ec 91       	ld	r30, X
+     ab4:	2e 2b       	or	r18, r30
+     ab6:	2c 93       	st	X, r18
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:60
+    SREG = oldSREG;
+     ab8:	8f bf       	out	0x3f, r24	; 63
+     aba:	ea cf       	rjmp	.-44     	; 0xa90 <pinMode+0x5e>
+
+00000abc <digitalWrite>:
+digitalWrite():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:138
+  }
+}
+
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+     abc:	87 ff       	sbrs	r24, 7
+     abe:	07 c0       	rjmp	.+14     	; 0xace <digitalWrite+0x12>
+     ac0:	e8 2f       	mov	r30, r24
+     ac2:	ef 77       	andi	r30, 0x7F	; 127
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:138 (discriminator 1)
+     ac4:	8a e0       	ldi	r24, 0x0A	; 10
+     ac6:	8e 1b       	sub	r24, r30
+     ac8:	e8 30       	cpi	r30, 0x08	; 8
+     aca:	08 f0       	brcs	.+2      	; 0xace <digitalWrite+0x12>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:138
+     acc:	8f ef       	ldi	r24, 0xFF	; 255
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:139
+  uint8_t timer = digitalPinToTimer(pin);
+     ace:	90 e0       	ldi	r25, 0x00	; 0
+     ad0:	fc 01       	movw	r30, r24
+     ad2:	ee 5d       	subi	r30, 0xDE	; 222
+     ad4:	ff 4f       	sbci	r31, 0xFF	; 255
+     ad6:	34 91       	lpm	r19, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:140
+  uint8_t bit = digitalPinToBitMask(pin);
+     ad8:	fc 01       	movw	r30, r24
+     ada:	e1 5d       	subi	r30, 0xD1	; 209
+     adc:	ff 4f       	sbci	r31, 0xFF	; 255
+     ade:	24 91       	lpm	r18, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:141
+  uint8_t port = digitalPinToPort(pin);
+     ae0:	fc 01       	movw	r30, r24
+     ae2:	e5 5c       	subi	r30, 0xC5	; 197
+     ae4:	ff 4f       	sbci	r31, 0xFF	; 255
+     ae6:	e4 91       	lpm	r30, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:144
+  volatile uint8_t *out;
+
+  if (port == NOT_A_PIN) return;
+     ae8:	ee 23       	and	r30, r30
+     aea:	b9 f0       	breq	.+46     	; 0xb1a <digitalWrite+0x5e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:148
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+     aec:	33 23       	and	r19, r19
+     aee:	29 f0       	breq	.+10     	; 0xafa <digitalWrite+0x3e>
+turnOffPWM():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:67
+}
+
+static void turnOffPWM(uint8_t timer)
+{
+  #if defined(TCCR0A) && defined(COM0A1)
+    if( timer == TIMER0A){
+     af0:	31 30       	cpi	r19, 0x01	; 1
+     af2:	a1 f4       	brne	.+40     	; 0xb1c <digitalWrite+0x60>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:68
+      cbi(TCCR0A, COM0A1);
+     af4:	80 b7       	in	r24, 0x30	; 48
+     af6:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:74
+      //cbi(TCCR0A, COM0A0);
+    } else
+  #endif
+  #if defined(TCCR0A) && defined(COM0B1)
+    if( timer == TIMER0B){
+      cbi(TCCR0A, COM0B1);
+     af8:	80 bf       	out	0x30, r24	; 48
+digitalWrite():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:150
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+
+  out = portOutputRegister(port);
+     afa:	f0 e0       	ldi	r31, 0x00	; 0
+     afc:	ee 0f       	add	r30, r30
+     afe:	ff 1f       	adc	r31, r31
+     b00:	e9 5b       	subi	r30, 0xB9	; 185
+     b02:	ff 4f       	sbci	r31, 0xFF	; 255
+     b04:	a5 91       	lpm	r26, Z+
+     b06:	b4 91       	lpm	r27, Z
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:153
+
+  if (val == LOW) {
+    uint8_t oldSREG = SREG;
+     b08:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:152
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+
+  out = portOutputRegister(port);
+
+  if (val == LOW) {
+     b0a:	61 11       	cpse	r22, r1
+     b0c:	17 c0       	rjmp	.+46     	; 0xb3c <digitalWrite+0x80>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:154
+    uint8_t oldSREG = SREG;
+    cli();
+     b0e:	f8 94       	cli
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:155
+    *out &= ~bit;
+     b10:	ec 91       	ld	r30, X
+     b12:	20 95       	com	r18
+     b14:	2e 23       	and	r18, r30
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:160
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+    cli();
+    *out |= bit;
+     b16:	2c 93       	st	X, r18
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:161
+    SREG = oldSREG;
+     b18:	8f bf       	out	0x3f, r24	; 63
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:163
+  }
+}
+     b1a:	08 95       	ret
+turnOffPWM():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:73
+      cbi(TCCR0A, COM0A1);
+      //cbi(TCCR0A, COM0A0);
+    } else
+  #endif
+  #if defined(TCCR0A) && defined(COM0B1)
+    if( timer == TIMER0B){
+     b1c:	32 30       	cpi	r19, 0x02	; 2
+     b1e:	19 f4       	brne	.+6      	; 0xb26 <digitalWrite+0x6a>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:74
+      cbi(TCCR0A, COM0B1);
+     b20:	80 b7       	in	r24, 0x30	; 48
+     b22:	8f 7d       	andi	r24, 0xDF	; 223
+     b24:	e9 cf       	rjmp	.-46     	; 0xaf8 <digitalWrite+0x3c>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:118
+        GTCCR &= ~(1<<COM1B1);
+        //cbi(GTCCR, COM1B1);
+      } else
+    #endif
+    #if defined(TCCR1A) && defined(COM1A1) // civilized parts
+      if( timer == TIMER1A){
+     b26:	33 30       	cpi	r19, 0x03	; 3
+     b28:	21 f4       	brne	.+8      	; 0xb32 <digitalWrite+0x76>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:119
+        TCCR1A &= ~(1<<COM1A1);
+     b2a:	8f b5       	in	r24, 0x2f	; 47
+     b2c:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:126
+      } else
+    #endif
+
+    #if defined(TCCR1A) && defined(COM1B1) // civilized parts
+      if( timer == TIMER1B){
+        TCCR1A &= ~(1<<COM1B1);
+     b2e:	8f bd       	out	0x2f, r24	; 47
+     b30:	e4 cf       	rjmp	.-56     	; 0xafa <digitalWrite+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:125
+        //cbi(TCCR1A, COM1A0);
+      } else
+    #endif
+
+    #if defined(TCCR1A) && defined(COM1B1) // civilized parts
+      if( timer == TIMER1B){
+     b32:	34 30       	cpi	r19, 0x04	; 4
+     b34:	11 f7       	brne	.-60     	; 0xafa <digitalWrite+0x3e>
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:126
+        TCCR1A &= ~(1<<COM1B1);
+     b36:	8f b5       	in	r24, 0x2f	; 47
+     b38:	8f 7d       	andi	r24, 0xDF	; 223
+     b3a:	f9 cf       	rjmp	.-14     	; 0xb2e <digitalWrite+0x72>
+digitalWrite():
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:159
+    cli();
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+    cli();
+     b3c:	f8 94       	cli
+C:\Users\nickb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.5.2\cores\tiny/wiring_digital.c:160
+    *out |= bit;
+     b3e:	ec 91       	ld	r30, X
+     b40:	2e 2b       	or	r18, r30
+     b42:	e9 cf       	rjmp	.-46     	; 0xb16 <digitalWrite+0x5a>
+
+00000b44 <__mulsi3>:
+__mulsi3():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:445
+     b44:	ee 27       	eor	r30, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:446
+     b46:	ff 27       	eor	r31, r31
+
+00000b48 <__mulsi3_helper>:
+__mulsi3_helper():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:451
+     b48:	aa 27       	eor	r26, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:452
+     b4a:	bb 27       	eor	r27, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:453
+     b4c:	08 c0       	rjmp	.+16     	; 0xb5e <__mulsi3_helper+0x16>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:457
+     b4e:	a2 0f       	add	r26, r18
+     b50:	b3 1f       	adc	r27, r19
+     b52:	e4 1f       	adc	r30, r20
+     b54:	f5 1f       	adc	r31, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:460
+     b56:	22 0f       	add	r18, r18
+     b58:	33 1f       	adc	r19, r19
+     b5a:	44 1f       	adc	r20, r20
+     b5c:	55 1f       	adc	r21, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:463
+     b5e:	96 95       	lsr	r25
+     b60:	87 95       	ror	r24
+     b62:	77 95       	ror	r23
+     b64:	67 95       	ror	r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:465
+     b66:	98 f3       	brcs	.-26     	; 0xb4e <__mulsi3_helper+0x6>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:467
+     b68:	70 40       	sbci	r23, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:468
+     b6a:	a9 f7       	brne	.-22     	; 0xb56 <__mulsi3_helper+0xe>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:469
+     b6c:	00 97       	sbiw	r24, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:470
+     b6e:	99 f7       	brne	.-26     	; 0xb56 <__mulsi3_helper+0xe>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:473
+     b70:	bd 01       	movw	r22, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:474
+     b72:	cf 01       	movw	r24, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:480
+     b74:	08 95       	ret
+
+00000b76 <__divmodsi4>:
+__divmodsi4():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1686
+     b76:	05 2e       	mov	r0, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1687
+     b78:	97 fb       	bst	r25, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1688
+     b7a:	16 f4       	brtc	.+4      	; 0xb80 <__divmodsi4+0xa>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1689
+     b7c:	00 94       	com	r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1690
+     b7e:	0f d0       	rcall	.+30     	; 0xb9e <__negsi2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1692
+     b80:	57 fd       	sbrc	r21, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1693
+     b82:	05 d0       	rcall	.+10     	; 0xb8e <__divmodsi4_neg2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1694
+     b84:	14 d0       	rcall	.+40     	; 0xbae <__udivmodsi4>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1695
+     b86:	07 fc       	sbrc	r0, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1696
+     b88:	02 d0       	rcall	.+4      	; 0xb8e <__divmodsi4_neg2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1697
+     b8a:	46 f4       	brtc	.+16     	; 0xb9c <__divmodsi4_exit>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1698
+     b8c:	08 c0       	rjmp	.+16     	; 0xb9e <__negsi2>
+
+00000b8e <__divmodsi4_neg2>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1701
+     b8e:	50 95       	com	r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1702
+     b90:	40 95       	com	r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1703
+     b92:	30 95       	com	r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1704
+     b94:	21 95       	neg	r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1705
+     b96:	3f 4f       	sbci	r19, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1706
+     b98:	4f 4f       	sbci	r20, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1707
+     b9a:	5f 4f       	sbci	r21, 0xFF	; 255
+
+00000b9c <__divmodsi4_exit>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1709
+     b9c:	08 95       	ret
+
+00000b9e <__negsi2>:
+__negsi2():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1718
+     b9e:	90 95       	com	r25
+     ba0:	80 95       	com	r24
+     ba2:	70 95       	com	r23
+     ba4:	61 95       	neg	r22
+     ba6:	7f 4f       	sbci	r23, 0xFF	; 255
+     ba8:	8f 4f       	sbci	r24, 0xFF	; 255
+     baa:	9f 4f       	sbci	r25, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1719
+     bac:	08 95       	ret
+
+00000bae <__udivmodsi4>:
+__udivmodsi4():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+     bae:	a1 e2       	ldi	r26, 0x21	; 33
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1639
+     bb0:	1a 2e       	mov	r1, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1640
+     bb2:	aa 1b       	sub	r26, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1641
+     bb4:	bb 1b       	sub	r27, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1642
+     bb6:	fd 01       	movw	r30, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1644
+     bb8:	0d c0       	rjmp	.+26     	; 0xbd4 <__udivmodsi4_ep>
+
+00000bba <__udivmodsi4_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+     bba:	aa 1f       	adc	r26, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1647
+     bbc:	bb 1f       	adc	r27, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1648
+     bbe:	ee 1f       	adc	r30, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1649
+     bc0:	ff 1f       	adc	r31, r31
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1650
+     bc2:	a2 17       	cp	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1651
+     bc4:	b3 07       	cpc	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1652
+     bc6:	e4 07       	cpc	r30, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1653
+     bc8:	f5 07       	cpc	r31, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1654
+     bca:	20 f0       	brcs	.+8      	; 0xbd4 <__udivmodsi4_ep>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1655
+     bcc:	a2 1b       	sub	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1656
+     bce:	b3 0b       	sbc	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1657
+     bd0:	e4 0b       	sbc	r30, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1658
+     bd2:	f5 0b       	sbc	r31, r21
+
+00000bd4 <__udivmodsi4_ep>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+     bd4:	66 1f       	adc	r22, r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1661
+     bd6:	77 1f       	adc	r23, r23
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1662
+     bd8:	88 1f       	adc	r24, r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1663
+     bda:	99 1f       	adc	r25, r25
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1664
+     bdc:	1a 94       	dec	r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1665
+     bde:	69 f7       	brne	.-38     	; 0xbba <__udivmodsi4_loop>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1667
+     be0:	60 95       	com	r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1668
+     be2:	70 95       	com	r23
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1669
+     be4:	80 95       	com	r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1670
+     be6:	90 95       	com	r25
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1672
+     be8:	9b 01       	movw	r18, r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1674
+     bea:	ac 01       	movw	r20, r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1676
+     bec:	bd 01       	movw	r22, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1678
+     bee:	cf 01       	movw	r24, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1680
+     bf0:	08 95       	ret
+
+00000bf2 <malloc>:
+malloc():
+     bf2:	0f 93       	push	r16
+     bf4:	1f 93       	push	r17
+     bf6:	cf 93       	push	r28
+     bf8:	df 93       	push	r29
+     bfa:	82 30       	cpi	r24, 0x02	; 2
+     bfc:	91 05       	cpc	r25, r1
+     bfe:	10 f4       	brcc	.+4      	; 0xc04 <malloc+0x12>
+     c00:	82 e0       	ldi	r24, 0x02	; 2
+     c02:	90 e0       	ldi	r25, 0x00	; 0
+     c04:	e0 91 af 00 	lds	r30, 0x00AF	; 0x8000af <__flp>
+     c08:	f0 91 b0 00 	lds	r31, 0x00B0	; 0x8000b0 <__flp+0x1>
+     c0c:	30 e0       	ldi	r19, 0x00	; 0
+     c0e:	20 e0       	ldi	r18, 0x00	; 0
+     c10:	b0 e0       	ldi	r27, 0x00	; 0
+     c12:	a0 e0       	ldi	r26, 0x00	; 0
+     c14:	30 97       	sbiw	r30, 0x00	; 0
+     c16:	99 f4       	brne	.+38     	; 0xc3e <malloc+0x4c>
+     c18:	21 15       	cp	r18, r1
+     c1a:	31 05       	cpc	r19, r1
+     c1c:	09 f4       	brne	.+2      	; 0xc20 <malloc+0x2e>
+     c1e:	4a c0       	rjmp	.+148    	; 0xcb4 <malloc+0xc2>
+     c20:	28 1b       	sub	r18, r24
+     c22:	39 0b       	sbc	r19, r25
+     c24:	24 30       	cpi	r18, 0x04	; 4
+     c26:	31 05       	cpc	r19, r1
+     c28:	d8 f5       	brcc	.+118    	; 0xca0 <malloc+0xae>
+     c2a:	8a 81       	ldd	r24, Y+2	; 0x02
+     c2c:	9b 81       	ldd	r25, Y+3	; 0x03
+     c2e:	61 15       	cp	r22, r1
+     c30:	71 05       	cpc	r23, r1
+     c32:	89 f1       	breq	.+98     	; 0xc96 <malloc+0xa4>
+     c34:	fb 01       	movw	r30, r22
+     c36:	93 83       	std	Z+3, r25	; 0x03
+     c38:	82 83       	std	Z+2, r24	; 0x02
+     c3a:	fe 01       	movw	r30, r28
+     c3c:	11 c0       	rjmp	.+34     	; 0xc60 <malloc+0x6e>
+     c3e:	40 81       	ld	r20, Z
+     c40:	51 81       	ldd	r21, Z+1	; 0x01
+     c42:	02 81       	ldd	r16, Z+2	; 0x02
+     c44:	13 81       	ldd	r17, Z+3	; 0x03
+     c46:	48 17       	cp	r20, r24
+     c48:	59 07       	cpc	r21, r25
+     c4a:	e0 f0       	brcs	.+56     	; 0xc84 <malloc+0x92>
+     c4c:	48 17       	cp	r20, r24
+     c4e:	59 07       	cpc	r21, r25
+     c50:	99 f4       	brne	.+38     	; 0xc78 <malloc+0x86>
+     c52:	10 97       	sbiw	r26, 0x00	; 0
+     c54:	61 f0       	breq	.+24     	; 0xc6e <malloc+0x7c>
+     c56:	12 96       	adiw	r26, 0x02	; 2
+     c58:	0c 93       	st	X, r16
+     c5a:	12 97       	sbiw	r26, 0x02	; 2
+     c5c:	13 96       	adiw	r26, 0x03	; 3
+     c5e:	1c 93       	st	X, r17
+     c60:	32 96       	adiw	r30, 0x02	; 2
+     c62:	cf 01       	movw	r24, r30
+     c64:	df 91       	pop	r29
+     c66:	cf 91       	pop	r28
+     c68:	1f 91       	pop	r17
+     c6a:	0f 91       	pop	r16
+     c6c:	08 95       	ret
+     c6e:	00 93 af 00 	sts	0x00AF, r16	; 0x8000af <__flp>
+     c72:	10 93 b0 00 	sts	0x00B0, r17	; 0x8000b0 <__flp+0x1>
+     c76:	f4 cf       	rjmp	.-24     	; 0xc60 <malloc+0x6e>
+     c78:	21 15       	cp	r18, r1
+     c7a:	31 05       	cpc	r19, r1
+     c7c:	51 f0       	breq	.+20     	; 0xc92 <malloc+0xa0>
+     c7e:	42 17       	cp	r20, r18
+     c80:	53 07       	cpc	r21, r19
+     c82:	38 f0       	brcs	.+14     	; 0xc92 <malloc+0xa0>
+     c84:	a9 01       	movw	r20, r18
+     c86:	db 01       	movw	r26, r22
+     c88:	9a 01       	movw	r18, r20
+     c8a:	bd 01       	movw	r22, r26
+     c8c:	df 01       	movw	r26, r30
+     c8e:	f8 01       	movw	r30, r16
+     c90:	c1 cf       	rjmp	.-126    	; 0xc14 <malloc+0x22>
+     c92:	ef 01       	movw	r28, r30
+     c94:	f9 cf       	rjmp	.-14     	; 0xc88 <malloc+0x96>
+     c96:	90 93 b0 00 	sts	0x00B0, r25	; 0x8000b0 <__flp+0x1>
+     c9a:	80 93 af 00 	sts	0x00AF, r24	; 0x8000af <__flp>
+     c9e:	cd cf       	rjmp	.-102    	; 0xc3a <malloc+0x48>
+     ca0:	fe 01       	movw	r30, r28
+     ca2:	e2 0f       	add	r30, r18
+     ca4:	f3 1f       	adc	r31, r19
+     ca6:	81 93       	st	Z+, r24
+     ca8:	91 93       	st	Z+, r25
+     caa:	22 50       	subi	r18, 0x02	; 2
+     cac:	31 09       	sbc	r19, r1
+     cae:	39 83       	std	Y+1, r19	; 0x01
+     cb0:	28 83       	st	Y, r18
+     cb2:	d7 cf       	rjmp	.-82     	; 0xc62 <malloc+0x70>
+     cb4:	20 91 ad 00 	lds	r18, 0x00AD	; 0x8000ad <__brkval>
+     cb8:	30 91 ae 00 	lds	r19, 0x00AE	; 0x8000ae <__brkval+0x1>
+     cbc:	23 2b       	or	r18, r19
+     cbe:	41 f4       	brne	.+16     	; 0xcd0 <malloc+0xde>
+     cc0:	20 91 62 00 	lds	r18, 0x0062	; 0x800062 <__malloc_heap_start>
+     cc4:	30 91 63 00 	lds	r19, 0x0063	; 0x800063 <__malloc_heap_start+0x1>
+     cc8:	30 93 ae 00 	sts	0x00AE, r19	; 0x8000ae <__brkval+0x1>
+     ccc:	20 93 ad 00 	sts	0x00AD, r18	; 0x8000ad <__brkval>
+     cd0:	20 91 60 00 	lds	r18, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
+     cd4:	30 91 61 00 	lds	r19, 0x0061	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
+     cd8:	21 15       	cp	r18, r1
+     cda:	31 05       	cpc	r19, r1
+     cdc:	41 f4       	brne	.+16     	; 0xcee <malloc+0xfc>
+     cde:	2d b7       	in	r18, 0x3d	; 61
+     ce0:	3e b7       	in	r19, 0x3e	; 62
+     ce2:	40 91 64 00 	lds	r20, 0x0064	; 0x800064 <__malloc_margin>
+     ce6:	50 91 65 00 	lds	r21, 0x0065	; 0x800065 <__malloc_margin+0x1>
+     cea:	24 1b       	sub	r18, r20
+     cec:	35 0b       	sbc	r19, r21
+     cee:	e0 91 ad 00 	lds	r30, 0x00AD	; 0x8000ad <__brkval>
+     cf2:	f0 91 ae 00 	lds	r31, 0x00AE	; 0x8000ae <__brkval+0x1>
+     cf6:	e2 17       	cp	r30, r18
+     cf8:	f3 07       	cpc	r31, r19
+     cfa:	a0 f4       	brcc	.+40     	; 0xd24 <malloc+0x132>
+     cfc:	2e 1b       	sub	r18, r30
+     cfe:	3f 0b       	sbc	r19, r31
+     d00:	28 17       	cp	r18, r24
+     d02:	39 07       	cpc	r19, r25
+     d04:	78 f0       	brcs	.+30     	; 0xd24 <malloc+0x132>
+     d06:	ac 01       	movw	r20, r24
+     d08:	4e 5f       	subi	r20, 0xFE	; 254
+     d0a:	5f 4f       	sbci	r21, 0xFF	; 255
+     d0c:	24 17       	cp	r18, r20
+     d0e:	35 07       	cpc	r19, r21
+     d10:	48 f0       	brcs	.+18     	; 0xd24 <malloc+0x132>
+     d12:	4e 0f       	add	r20, r30
+     d14:	5f 1f       	adc	r21, r31
+     d16:	50 93 ae 00 	sts	0x00AE, r21	; 0x8000ae <__brkval+0x1>
+     d1a:	40 93 ad 00 	sts	0x00AD, r20	; 0x8000ad <__brkval>
+     d1e:	81 93       	st	Z+, r24
+     d20:	91 93       	st	Z+, r25
+     d22:	9f cf       	rjmp	.-194    	; 0xc62 <malloc+0x70>
+     d24:	f0 e0       	ldi	r31, 0x00	; 0
+     d26:	e0 e0       	ldi	r30, 0x00	; 0
+     d28:	9c cf       	rjmp	.-200    	; 0xc62 <malloc+0x70>
+
+00000d2a <free>:
+free():
+     d2a:	cf 93       	push	r28
+     d2c:	df 93       	push	r29
+     d2e:	00 97       	sbiw	r24, 0x00	; 0
+     d30:	e9 f0       	breq	.+58     	; 0xd6c <free+0x42>
+     d32:	fc 01       	movw	r30, r24
+     d34:	32 97       	sbiw	r30, 0x02	; 2
+     d36:	13 82       	std	Z+3, r1	; 0x03
+     d38:	12 82       	std	Z+2, r1	; 0x02
+     d3a:	a0 91 af 00 	lds	r26, 0x00AF	; 0x8000af <__flp>
+     d3e:	b0 91 b0 00 	lds	r27, 0x00B0	; 0x8000b0 <__flp+0x1>
+     d42:	ed 01       	movw	r28, r26
+     d44:	30 e0       	ldi	r19, 0x00	; 0
+     d46:	20 e0       	ldi	r18, 0x00	; 0
+     d48:	10 97       	sbiw	r26, 0x00	; 0
+     d4a:	a1 f4       	brne	.+40     	; 0xd74 <free+0x4a>
+     d4c:	20 81       	ld	r18, Z
+     d4e:	31 81       	ldd	r19, Z+1	; 0x01
+     d50:	82 0f       	add	r24, r18
+     d52:	93 1f       	adc	r25, r19
+     d54:	20 91 ad 00 	lds	r18, 0x00AD	; 0x8000ad <__brkval>
+     d58:	30 91 ae 00 	lds	r19, 0x00AE	; 0x8000ae <__brkval+0x1>
+     d5c:	28 17       	cp	r18, r24
+     d5e:	39 07       	cpc	r19, r25
+     d60:	09 f0       	breq	.+2      	; 0xd64 <free+0x3a>
+     d62:	61 c0       	rjmp	.+194    	; 0xe26 <free+0xfc>
+     d64:	f0 93 ae 00 	sts	0x00AE, r31	; 0x8000ae <__brkval+0x1>
+     d68:	e0 93 ad 00 	sts	0x00AD, r30	; 0x8000ad <__brkval>
+     d6c:	df 91       	pop	r29
+     d6e:	cf 91       	pop	r28
+     d70:	08 95       	ret
+     d72:	ea 01       	movw	r28, r20
+     d74:	ce 17       	cp	r28, r30
+     d76:	df 07       	cpc	r29, r31
+     d78:	e8 f5       	brcc	.+122    	; 0xdf4 <free+0xca>
+     d7a:	4a 81       	ldd	r20, Y+2	; 0x02
+     d7c:	5b 81       	ldd	r21, Y+3	; 0x03
+     d7e:	9e 01       	movw	r18, r28
+     d80:	41 15       	cp	r20, r1
+     d82:	51 05       	cpc	r21, r1
+     d84:	b1 f7       	brne	.-20     	; 0xd72 <free+0x48>
+     d86:	e9 01       	movw	r28, r18
+     d88:	fb 83       	std	Y+3, r31	; 0x03
+     d8a:	ea 83       	std	Y+2, r30	; 0x02
+     d8c:	49 91       	ld	r20, Y+
+     d8e:	59 91       	ld	r21, Y+
+     d90:	c4 0f       	add	r28, r20
+     d92:	d5 1f       	adc	r29, r21
+     d94:	ec 17       	cp	r30, r28
+     d96:	fd 07       	cpc	r31, r29
+     d98:	61 f4       	brne	.+24     	; 0xdb2 <free+0x88>
+     d9a:	80 81       	ld	r24, Z
+     d9c:	91 81       	ldd	r25, Z+1	; 0x01
+     d9e:	02 96       	adiw	r24, 0x02	; 2
+     da0:	84 0f       	add	r24, r20
+     da2:	95 1f       	adc	r25, r21
+     da4:	e9 01       	movw	r28, r18
+     da6:	99 83       	std	Y+1, r25	; 0x01
+     da8:	88 83       	st	Y, r24
+     daa:	82 81       	ldd	r24, Z+2	; 0x02
+     dac:	93 81       	ldd	r25, Z+3	; 0x03
+     dae:	9b 83       	std	Y+3, r25	; 0x03
+     db0:	8a 83       	std	Y+2, r24	; 0x02
+     db2:	f0 e0       	ldi	r31, 0x00	; 0
+     db4:	e0 e0       	ldi	r30, 0x00	; 0
+     db6:	12 96       	adiw	r26, 0x02	; 2
+     db8:	8d 91       	ld	r24, X+
+     dba:	9c 91       	ld	r25, X
+     dbc:	13 97       	sbiw	r26, 0x03	; 3
+     dbe:	00 97       	sbiw	r24, 0x00	; 0
+     dc0:	b9 f5       	brne	.+110    	; 0xe30 <free+0x106>
+     dc2:	2d 91       	ld	r18, X+
+     dc4:	3c 91       	ld	r19, X
+     dc6:	11 97       	sbiw	r26, 0x01	; 1
+     dc8:	cd 01       	movw	r24, r26
+     dca:	02 96       	adiw	r24, 0x02	; 2
+     dcc:	82 0f       	add	r24, r18
+     dce:	93 1f       	adc	r25, r19
+     dd0:	20 91 ad 00 	lds	r18, 0x00AD	; 0x8000ad <__brkval>
+     dd4:	30 91 ae 00 	lds	r19, 0x00AE	; 0x8000ae <__brkval+0x1>
+     dd8:	28 17       	cp	r18, r24
+     dda:	39 07       	cpc	r19, r25
+     ddc:	39 f6       	brne	.-114    	; 0xd6c <free+0x42>
+     dde:	30 97       	sbiw	r30, 0x00	; 0
+     de0:	51 f5       	brne	.+84     	; 0xe36 <free+0x10c>
+     de2:	10 92 b0 00 	sts	0x00B0, r1	; 0x8000b0 <__flp+0x1>
+     de6:	10 92 af 00 	sts	0x00AF, r1	; 0x8000af <__flp>
+     dea:	b0 93 ae 00 	sts	0x00AE, r27	; 0x8000ae <__brkval+0x1>
+     dee:	a0 93 ad 00 	sts	0x00AD, r26	; 0x8000ad <__brkval>
+     df2:	bc cf       	rjmp	.-136    	; 0xd6c <free+0x42>
+     df4:	d3 83       	std	Z+3, r29	; 0x03
+     df6:	c2 83       	std	Z+2, r28	; 0x02
+     df8:	40 81       	ld	r20, Z
+     dfa:	51 81       	ldd	r21, Z+1	; 0x01
+     dfc:	84 0f       	add	r24, r20
+     dfe:	95 1f       	adc	r25, r21
+     e00:	c8 17       	cp	r28, r24
+     e02:	d9 07       	cpc	r29, r25
+     e04:	61 f4       	brne	.+24     	; 0xe1e <free+0xf4>
+     e06:	4e 5f       	subi	r20, 0xFE	; 254
+     e08:	5f 4f       	sbci	r21, 0xFF	; 255
+     e0a:	88 81       	ld	r24, Y
+     e0c:	99 81       	ldd	r25, Y+1	; 0x01
+     e0e:	48 0f       	add	r20, r24
+     e10:	59 1f       	adc	r21, r25
+     e12:	51 83       	std	Z+1, r21	; 0x01
+     e14:	40 83       	st	Z, r20
+     e16:	8a 81       	ldd	r24, Y+2	; 0x02
+     e18:	9b 81       	ldd	r25, Y+3	; 0x03
+     e1a:	93 83       	std	Z+3, r25	; 0x03
+     e1c:	82 83       	std	Z+2, r24	; 0x02
+     e1e:	21 15       	cp	r18, r1
+     e20:	31 05       	cpc	r19, r1
+     e22:	09 f0       	breq	.+2      	; 0xe26 <free+0xfc>
+     e24:	b0 cf       	rjmp	.-160    	; 0xd86 <free+0x5c>
+     e26:	f0 93 b0 00 	sts	0x00B0, r31	; 0x8000b0 <__flp+0x1>
+     e2a:	e0 93 af 00 	sts	0x00AF, r30	; 0x8000af <__flp>
+     e2e:	9e cf       	rjmp	.-196    	; 0xd6c <free+0x42>
+     e30:	fd 01       	movw	r30, r26
+     e32:	dc 01       	movw	r26, r24
+     e34:	c0 cf       	rjmp	.-128    	; 0xdb6 <free+0x8c>
+     e36:	13 82       	std	Z+3, r1	; 0x03
+     e38:	12 82       	std	Z+2, r1	; 0x02
+     e3a:	d7 cf       	rjmp	.-82     	; 0xdea <free+0xc0>
+
+00000e3c <random_r>:
+random_r():
+     e3c:	8f 92       	push	r8
+     e3e:	9f 92       	push	r9
+     e40:	af 92       	push	r10
+     e42:	bf 92       	push	r11
+     e44:	cf 92       	push	r12
+     e46:	df 92       	push	r13
+     e48:	ef 92       	push	r14
+     e4a:	ff 92       	push	r15
+     e4c:	cf 93       	push	r28
+     e4e:	df 93       	push	r29
+     e50:	ec 01       	movw	r28, r24
+     e52:	68 81       	ld	r22, Y
+     e54:	79 81       	ldd	r23, Y+1	; 0x01
+     e56:	8a 81       	ldd	r24, Y+2	; 0x02
+     e58:	9b 81       	ldd	r25, Y+3	; 0x03
+     e5a:	61 15       	cp	r22, r1
+     e5c:	71 05       	cpc	r23, r1
+     e5e:	81 05       	cpc	r24, r1
+     e60:	91 05       	cpc	r25, r1
+     e62:	21 f4       	brne	.+8      	; 0xe6c <random_r+0x30>
+     e64:	64 e2       	ldi	r22, 0x24	; 36
+     e66:	79 ed       	ldi	r23, 0xD9	; 217
+     e68:	8b e5       	ldi	r24, 0x5B	; 91
+     e6a:	97 e0       	ldi	r25, 0x07	; 7
+     e6c:	2d e1       	ldi	r18, 0x1D	; 29
+     e6e:	33 ef       	ldi	r19, 0xF3	; 243
+     e70:	41 e0       	ldi	r20, 0x01	; 1
+     e72:	50 e0       	ldi	r21, 0x00	; 0
+     e74:	80 de       	rcall	.-768    	; 0xb76 <__divmodsi4>
+     e76:	49 01       	movw	r8, r18
+     e78:	5a 01       	movw	r10, r20
+     e7a:	27 ea       	ldi	r18, 0xA7	; 167
+     e7c:	31 e4       	ldi	r19, 0x41	; 65
+     e7e:	40 e0       	ldi	r20, 0x00	; 0
+     e80:	50 e0       	ldi	r21, 0x00	; 0
+     e82:	60 de       	rcall	.-832    	; 0xb44 <__mulsi3>
+     e84:	6b 01       	movw	r12, r22
+     e86:	7c 01       	movw	r14, r24
+     e88:	2c ee       	ldi	r18, 0xEC	; 236
+     e8a:	34 ef       	ldi	r19, 0xF4	; 244
+     e8c:	4f ef       	ldi	r20, 0xFF	; 255
+     e8e:	5f ef       	ldi	r21, 0xFF	; 255
+     e90:	c5 01       	movw	r24, r10
+     e92:	b4 01       	movw	r22, r8
+     e94:	57 de       	rcall	.-850    	; 0xb44 <__mulsi3>
+     e96:	c6 0e       	add	r12, r22
+     e98:	d7 1e       	adc	r13, r23
+     e9a:	e8 1e       	adc	r14, r24
+     e9c:	f9 1e       	adc	r15, r25
+     e9e:	f7 fe       	sbrs	r15, 7
+     ea0:	06 c0       	rjmp	.+12     	; 0xeae <random_r+0x72>
+     ea2:	81 e0       	ldi	r24, 0x01	; 1
+     ea4:	c8 1a       	sub	r12, r24
+     ea6:	d1 08       	sbc	r13, r1
+     ea8:	e1 08       	sbc	r14, r1
+     eaa:	80 e8       	ldi	r24, 0x80	; 128
+     eac:	f8 0a       	sbc	r15, r24
+     eae:	c8 82       	st	Y, r12
+     eb0:	d9 82       	std	Y+1, r13	; 0x01
+     eb2:	ea 82       	std	Y+2, r14	; 0x02
+     eb4:	fb 82       	std	Y+3, r15	; 0x03
+     eb6:	c7 01       	movw	r24, r14
+     eb8:	b6 01       	movw	r22, r12
+     eba:	9f 77       	andi	r25, 0x7F	; 127
+     ebc:	df 91       	pop	r29
+     ebe:	cf 91       	pop	r28
+     ec0:	ff 90       	pop	r15
+     ec2:	ef 90       	pop	r14
+     ec4:	df 90       	pop	r13
+     ec6:	cf 90       	pop	r12
+     ec8:	bf 90       	pop	r11
+     eca:	af 90       	pop	r10
+     ecc:	9f 90       	pop	r9
+     ece:	8f 90       	pop	r8
+     ed0:	08 95       	ret
+
+00000ed2 <random>:
+random():
+     ed2:	8f 92       	push	r8
+     ed4:	9f 92       	push	r9
+     ed6:	af 92       	push	r10
+     ed8:	bf 92       	push	r11
+     eda:	cf 92       	push	r12
+     edc:	df 92       	push	r13
+     ede:	ef 92       	push	r14
+     ee0:	ff 92       	push	r15
+     ee2:	60 91 66 00 	lds	r22, 0x0066	; 0x800066 <next>
+     ee6:	70 91 67 00 	lds	r23, 0x0067	; 0x800067 <next+0x1>
+     eea:	80 91 68 00 	lds	r24, 0x0068	; 0x800068 <next+0x2>
+     eee:	90 91 69 00 	lds	r25, 0x0069	; 0x800069 <next+0x3>
+     ef2:	61 15       	cp	r22, r1
+     ef4:	71 05       	cpc	r23, r1
+     ef6:	81 05       	cpc	r24, r1
+     ef8:	91 05       	cpc	r25, r1
+     efa:	21 f4       	brne	.+8      	; 0xf04 <random+0x32>
+     efc:	64 e2       	ldi	r22, 0x24	; 36
+     efe:	79 ed       	ldi	r23, 0xD9	; 217
+     f00:	8b e5       	ldi	r24, 0x5B	; 91
+     f02:	97 e0       	ldi	r25, 0x07	; 7
+     f04:	2d e1       	ldi	r18, 0x1D	; 29
+     f06:	33 ef       	ldi	r19, 0xF3	; 243
+     f08:	41 e0       	ldi	r20, 0x01	; 1
+     f0a:	50 e0       	ldi	r21, 0x00	; 0
+     f0c:	34 de       	rcall	.-920    	; 0xb76 <__divmodsi4>
+     f0e:	49 01       	movw	r8, r18
+     f10:	5a 01       	movw	r10, r20
+     f12:	27 ea       	ldi	r18, 0xA7	; 167
+     f14:	31 e4       	ldi	r19, 0x41	; 65
+     f16:	40 e0       	ldi	r20, 0x00	; 0
+     f18:	50 e0       	ldi	r21, 0x00	; 0
+     f1a:	14 de       	rcall	.-984    	; 0xb44 <__mulsi3>
+     f1c:	6b 01       	movw	r12, r22
+     f1e:	7c 01       	movw	r14, r24
+     f20:	2c ee       	ldi	r18, 0xEC	; 236
+     f22:	34 ef       	ldi	r19, 0xF4	; 244
+     f24:	4f ef       	ldi	r20, 0xFF	; 255
+     f26:	5f ef       	ldi	r21, 0xFF	; 255
+     f28:	c5 01       	movw	r24, r10
+     f2a:	b4 01       	movw	r22, r8
+     f2c:	0b de       	rcall	.-1002   	; 0xb44 <__mulsi3>
+     f2e:	c6 0e       	add	r12, r22
+     f30:	d7 1e       	adc	r13, r23
+     f32:	e8 1e       	adc	r14, r24
+     f34:	f9 1e       	adc	r15, r25
+     f36:	f7 fe       	sbrs	r15, 7
+     f38:	06 c0       	rjmp	.+12     	; 0xf46 <random+0x74>
+     f3a:	81 e0       	ldi	r24, 0x01	; 1
+     f3c:	c8 1a       	sub	r12, r24
+     f3e:	d1 08       	sbc	r13, r1
+     f40:	e1 08       	sbc	r14, r1
+     f42:	80 e8       	ldi	r24, 0x80	; 128
+     f44:	f8 0a       	sbc	r15, r24
+     f46:	c0 92 66 00 	sts	0x0066, r12	; 0x800066 <next>
+     f4a:	d0 92 67 00 	sts	0x0067, r13	; 0x800067 <next+0x1>
+     f4e:	e0 92 68 00 	sts	0x0068, r14	; 0x800068 <next+0x2>
+     f52:	f0 92 69 00 	sts	0x0069, r15	; 0x800069 <next+0x3>
+     f56:	c7 01       	movw	r24, r14
+     f58:	b6 01       	movw	r22, r12
+     f5a:	9f 77       	andi	r25, 0x7F	; 127
+     f5c:	ff 90       	pop	r15
+     f5e:	ef 90       	pop	r14
+     f60:	df 90       	pop	r13
+     f62:	cf 90       	pop	r12
+     f64:	bf 90       	pop	r11
+     f66:	af 90       	pop	r10
+     f68:	9f 90       	pop	r9
+     f6a:	8f 90       	pop	r8
+     f6c:	08 95       	ret
+
+00000f6e <srandom>:
+srandom():
+     f6e:	60 93 66 00 	sts	0x0066, r22	; 0x800066 <next>
+     f72:	70 93 67 00 	sts	0x0067, r23	; 0x800067 <next+0x1>
+     f76:	80 93 68 00 	sts	0x0068, r24	; 0x800068 <next+0x2>
+     f7a:	90 93 69 00 	sts	0x0069, r25	; 0x800069 <next+0x3>
+     f7e:	08 95       	ret
+
+00000f80 <realloc>:
+realloc():
+     f80:	b0 e0       	ldi	r27, 0x00	; 0
+     f82:	a0 e0       	ldi	r26, 0x00	; 0
+     f84:	e5 ec       	ldi	r30, 0xC5	; 197
+     f86:	f7 e0       	ldi	r31, 0x07	; 7
+     f88:	00 c1       	rjmp	.+512    	; 0x118a <__prologue_saves__+0x4>
+     f8a:	8c 01       	movw	r16, r24
+     f8c:	00 97       	sbiw	r24, 0x00	; 0
+     f8e:	41 f4       	brne	.+16     	; 0xfa0 <realloc+0x20>
+     f90:	cb 01       	movw	r24, r22
+     f92:	2f de       	rcall	.-930    	; 0xbf2 <malloc>
+     f94:	8c 01       	movw	r16, r24
+     f96:	c8 01       	movw	r24, r16
+     f98:	cd b7       	in	r28, 0x3d	; 61
+     f9a:	de b7       	in	r29, 0x3e	; 62
+     f9c:	e0 e1       	ldi	r30, 0x10	; 16
+     f9e:	11 c1       	rjmp	.+546    	; 0x11c2 <__epilogue_restores__+0x4>
+     fa0:	fc 01       	movw	r30, r24
+     fa2:	e6 0f       	add	r30, r22
+     fa4:	f7 1f       	adc	r31, r23
+     fa6:	9c 01       	movw	r18, r24
+     fa8:	22 50       	subi	r18, 0x02	; 2
+     faa:	31 09       	sbc	r19, r1
+     fac:	e2 17       	cp	r30, r18
+     fae:	f3 07       	cpc	r31, r19
+     fb0:	08 f4       	brcc	.+2      	; 0xfb4 <realloc+0x34>
+     fb2:	99 c0       	rjmp	.+306    	; 0x10e6 <realloc+0x166>
+     fb4:	d9 01       	movw	r26, r18
+     fb6:	cd 91       	ld	r28, X+
+     fb8:	dc 91       	ld	r29, X
+     fba:	11 97       	sbiw	r26, 0x01	; 1
+     fbc:	c6 17       	cp	r28, r22
+     fbe:	d7 07       	cpc	r29, r23
+     fc0:	90 f0       	brcs	.+36     	; 0xfe6 <realloc+0x66>
+     fc2:	c5 30       	cpi	r28, 0x05	; 5
+     fc4:	d1 05       	cpc	r29, r1
+     fc6:	38 f3       	brcs	.-50     	; 0xf96 <realloc+0x16>
+     fc8:	ce 01       	movw	r24, r28
+     fca:	04 97       	sbiw	r24, 0x04	; 4
+     fcc:	86 17       	cp	r24, r22
+     fce:	97 07       	cpc	r25, r23
+     fd0:	10 f3       	brcs	.-60     	; 0xf96 <realloc+0x16>
+     fd2:	c6 1b       	sub	r28, r22
+     fd4:	d7 0b       	sbc	r29, r23
+     fd6:	22 97       	sbiw	r28, 0x02	; 2
+     fd8:	c1 93       	st	Z+, r28
+     fda:	d1 93       	st	Z+, r29
+     fdc:	6d 93       	st	X+, r22
+     fde:	7c 93       	st	X, r23
+     fe0:	cf 01       	movw	r24, r30
+     fe2:	a3 de       	rcall	.-698    	; 0xd2a <free>
+     fe4:	d8 cf       	rjmp	.-80     	; 0xf96 <realloc+0x16>
+     fe6:	5b 01       	movw	r10, r22
+     fe8:	ac 1a       	sub	r10, r28
+     fea:	bd 0a       	sbc	r11, r29
+     fec:	4c 01       	movw	r8, r24
+     fee:	8c 0e       	add	r8, r28
+     ff0:	9d 1e       	adc	r9, r29
+     ff2:	a0 91 af 00 	lds	r26, 0x00AF	; 0x8000af <__flp>
+     ff6:	b0 91 b0 00 	lds	r27, 0x00B0	; 0x8000b0 <__flp+0x1>
+     ffa:	51 2c       	mov	r5, r1
+     ffc:	41 2c       	mov	r4, r1
+     ffe:	f1 2c       	mov	r15, r1
+    1000:	e1 2c       	mov	r14, r1
+    1002:	10 97       	sbiw	r26, 0x00	; 0
+    1004:	31 f5       	brne	.+76     	; 0x1052 <realloc+0xd2>
+    1006:	80 91 ad 00 	lds	r24, 0x00AD	; 0x8000ad <__brkval>
+    100a:	90 91 ae 00 	lds	r25, 0x00AE	; 0x8000ae <__brkval+0x1>
+    100e:	88 15       	cp	r24, r8
+    1010:	99 05       	cpc	r25, r9
+    1012:	09 f0       	breq	.+2      	; 0x1016 <realloc+0x96>
+    1014:	5c c0       	rjmp	.+184    	; 0x10ce <realloc+0x14e>
+    1016:	46 16       	cp	r4, r22
+    1018:	57 06       	cpc	r5, r23
+    101a:	08 f0       	brcs	.+2      	; 0x101e <realloc+0x9e>
+    101c:	58 c0       	rjmp	.+176    	; 0x10ce <realloc+0x14e>
+    101e:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
+    1022:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
+    1026:	00 97       	sbiw	r24, 0x00	; 0
+    1028:	41 f4       	brne	.+16     	; 0x103a <realloc+0xba>
+    102a:	8d b7       	in	r24, 0x3d	; 61
+    102c:	9e b7       	in	r25, 0x3e	; 62
+    102e:	40 91 64 00 	lds	r20, 0x0064	; 0x800064 <__malloc_margin>
+    1032:	50 91 65 00 	lds	r21, 0x0065	; 0x800065 <__malloc_margin+0x1>
+    1036:	84 1b       	sub	r24, r20
+    1038:	95 0b       	sbc	r25, r21
+    103a:	e8 17       	cp	r30, r24
+    103c:	f9 07       	cpc	r31, r25
+    103e:	08 f0       	brcs	.+2      	; 0x1042 <realloc+0xc2>
+    1040:	52 c0       	rjmp	.+164    	; 0x10e6 <realloc+0x166>
+    1042:	f0 93 ae 00 	sts	0x00AE, r31	; 0x8000ae <__brkval+0x1>
+    1046:	e0 93 ad 00 	sts	0x00AD, r30	; 0x8000ad <__brkval>
+    104a:	f9 01       	movw	r30, r18
+    104c:	71 83       	std	Z+1, r23	; 0x01
+    104e:	60 83       	st	Z, r22
+    1050:	a2 cf       	rjmp	.-188    	; 0xf96 <realloc+0x16>
+    1052:	8d 91       	ld	r24, X+
+    1054:	9c 91       	ld	r25, X
+    1056:	11 97       	sbiw	r26, 0x01	; 1
+    1058:	12 96       	adiw	r26, 0x02	; 2
+    105a:	6c 90       	ld	r6, X
+    105c:	12 97       	sbiw	r26, 0x02	; 2
+    105e:	13 96       	adiw	r26, 0x03	; 3
+    1060:	7c 90       	ld	r7, X
+    1062:	13 97       	sbiw	r26, 0x03	; 3
+    1064:	a8 15       	cp	r26, r8
+    1066:	b9 05       	cpc	r27, r9
+    1068:	59 f5       	brne	.+86     	; 0x10c0 <realloc+0x140>
+    106a:	6c 01       	movw	r12, r24
+    106c:	42 e0       	ldi	r20, 0x02	; 2
+    106e:	c4 0e       	add	r12, r20
+    1070:	d1 1c       	adc	r13, r1
+    1072:	ca 14       	cp	r12, r10
+    1074:	db 04       	cpc	r13, r11
+    1076:	20 f1       	brcs	.+72     	; 0x10c0 <realloc+0x140>
+    1078:	ac 01       	movw	r20, r24
+    107a:	4a 19       	sub	r20, r10
+    107c:	5b 09       	sbc	r21, r11
+    107e:	da 01       	movw	r26, r20
+    1080:	12 96       	adiw	r26, 0x02	; 2
+    1082:	15 97       	sbiw	r26, 0x05	; 5
+    1084:	80 f0       	brcs	.+32     	; 0x10a6 <realloc+0x126>
+    1086:	62 82       	std	Z+2, r6	; 0x02
+    1088:	73 82       	std	Z+3, r7	; 0x03
+    108a:	51 83       	std	Z+1, r21	; 0x01
+    108c:	40 83       	st	Z, r20
+    108e:	d9 01       	movw	r26, r18
+    1090:	6d 93       	st	X+, r22
+    1092:	7c 93       	st	X, r23
+    1094:	e1 14       	cp	r14, r1
+    1096:	f1 04       	cpc	r15, r1
+    1098:	71 f0       	breq	.+28     	; 0x10b6 <realloc+0x136>
+    109a:	d7 01       	movw	r26, r14
+    109c:	13 96       	adiw	r26, 0x03	; 3
+    109e:	fc 93       	st	X, r31
+    10a0:	ee 93       	st	-X, r30
+    10a2:	12 97       	sbiw	r26, 0x02	; 2
+    10a4:	78 cf       	rjmp	.-272    	; 0xf96 <realloc+0x16>
+    10a6:	22 96       	adiw	r28, 0x02	; 2
+    10a8:	8c 0f       	add	r24, r28
+    10aa:	9d 1f       	adc	r25, r29
+    10ac:	f9 01       	movw	r30, r18
+    10ae:	91 83       	std	Z+1, r25	; 0x01
+    10b0:	80 83       	st	Z, r24
+    10b2:	f3 01       	movw	r30, r6
+    10b4:	ef cf       	rjmp	.-34     	; 0x1094 <realloc+0x114>
+    10b6:	f0 93 b0 00 	sts	0x00B0, r31	; 0x8000b0 <__flp+0x1>
+    10ba:	e0 93 af 00 	sts	0x00AF, r30	; 0x8000af <__flp>
+    10be:	6b cf       	rjmp	.-298    	; 0xf96 <realloc+0x16>
+    10c0:	48 16       	cp	r4, r24
+    10c2:	59 06       	cpc	r5, r25
+    10c4:	08 f4       	brcc	.+2      	; 0x10c8 <realloc+0x148>
+    10c6:	2c 01       	movw	r4, r24
+    10c8:	7d 01       	movw	r14, r26
+    10ca:	d3 01       	movw	r26, r6
+    10cc:	9a cf       	rjmp	.-204    	; 0x1002 <realloc+0x82>
+    10ce:	cb 01       	movw	r24, r22
+    10d0:	90 dd       	rcall	.-1248   	; 0xbf2 <malloc>
+    10d2:	7c 01       	movw	r14, r24
+    10d4:	00 97       	sbiw	r24, 0x00	; 0
+    10d6:	39 f0       	breq	.+14     	; 0x10e6 <realloc+0x166>
+    10d8:	ae 01       	movw	r20, r28
+    10da:	b8 01       	movw	r22, r16
+    10dc:	07 d0       	rcall	.+14     	; 0x10ec <memcpy>
+    10de:	c8 01       	movw	r24, r16
+    10e0:	24 de       	rcall	.-952    	; 0xd2a <free>
+    10e2:	87 01       	movw	r16, r14
+    10e4:	58 cf       	rjmp	.-336    	; 0xf96 <realloc+0x16>
+    10e6:	10 e0       	ldi	r17, 0x00	; 0
+    10e8:	00 e0       	ldi	r16, 0x00	; 0
+    10ea:	55 cf       	rjmp	.-342    	; 0xf96 <realloc+0x16>
+
+000010ec <memcpy>:
+memcpy():
+    10ec:	fb 01       	movw	r30, r22
+    10ee:	dc 01       	movw	r26, r24
+    10f0:	02 c0       	rjmp	.+4      	; 0x10f6 <memcpy+0xa>
+    10f2:	01 90       	ld	r0, Z+
+    10f4:	0d 92       	st	X+, r0
+    10f6:	41 50       	subi	r20, 0x01	; 1
+    10f8:	50 40       	sbci	r21, 0x00	; 0
+    10fa:	d8 f7       	brcc	.-10     	; 0x10f2 <memcpy+0x6>
+    10fc:	08 95       	ret
+
+000010fe <strcpy>:
+strcpy():
+    10fe:	fb 01       	movw	r30, r22
+    1100:	dc 01       	movw	r26, r24
+    1102:	01 90       	ld	r0, Z+
+    1104:	0d 92       	st	X+, r0
+    1106:	00 20       	and	r0, r0
+    1108:	e1 f7       	brne	.-8      	; 0x1102 <strcpy+0x4>
+    110a:	08 95       	ret
+
+0000110c <itoa>:
+itoa():
+    110c:	45 32       	cpi	r20, 0x25	; 37
+    110e:	51 05       	cpc	r21, r1
+    1110:	18 f4       	brcc	.+6      	; 0x1118 <itoa+0xc>
+    1112:	42 30       	cpi	r20, 0x02	; 2
+    1114:	08 f0       	brcs	.+2      	; 0x1118 <itoa+0xc>
+    1116:	04 c0       	rjmp	.+8      	; 0x1120 <__itoa_ncheck>
+    1118:	fb 01       	movw	r30, r22
+    111a:	10 82       	st	Z, r1
+    111c:	cb 01       	movw	r24, r22
+    111e:	08 95       	ret
+
+00001120 <__itoa_ncheck>:
+__itoa_ncheck():
+    1120:	bb 27       	eor	r27, r27
+    1122:	4a 30       	cpi	r20, 0x0A	; 10
+    1124:	31 f4       	brne	.+12     	; 0x1132 <__itoa_ncheck+0x12>
+    1126:	99 23       	and	r25, r25
+    1128:	22 f4       	brpl	.+8      	; 0x1132 <__itoa_ncheck+0x12>
+    112a:	bd e2       	ldi	r27, 0x2D	; 45
+    112c:	90 95       	com	r25
+    112e:	81 95       	neg	r24
+    1130:	9f 4f       	sbci	r25, 0xFF	; 255
+    1132:	01 c0       	rjmp	.+2      	; 0x1136 <__utoa_common>
+
+00001134 <__utoa_ncheck>:
+__utoa_ncheck():
+    1134:	bb 27       	eor	r27, r27
+
+00001136 <__utoa_common>:
+    1136:	fb 01       	movw	r30, r22
+    1138:	55 27       	eor	r21, r21
+    113a:	aa 27       	eor	r26, r26
+    113c:	88 0f       	add	r24, r24
+    113e:	99 1f       	adc	r25, r25
+    1140:	aa 1f       	adc	r26, r26
+    1142:	a4 17       	cp	r26, r20
+    1144:	10 f0       	brcs	.+4      	; 0x114a <__utoa_common+0x14>
+    1146:	a4 1b       	sub	r26, r20
+    1148:	83 95       	inc	r24
+    114a:	50 51       	subi	r21, 0x10	; 16
+    114c:	b9 f7       	brne	.-18     	; 0x113c <__utoa_common+0x6>
+    114e:	a0 5d       	subi	r26, 0xD0	; 208
+    1150:	aa 33       	cpi	r26, 0x3A	; 58
+    1152:	08 f0       	brcs	.+2      	; 0x1156 <__utoa_common+0x20>
+    1154:	a9 5d       	subi	r26, 0xD9	; 217
+    1156:	a1 93       	st	Z+, r26
+    1158:	00 97       	sbiw	r24, 0x00	; 0
+    115a:	79 f7       	brne	.-34     	; 0x113a <__utoa_common+0x4>
+    115c:	b1 11       	cpse	r27, r1
+    115e:	b1 93       	st	Z+, r27
+    1160:	11 92       	st	Z+, r1
+    1162:	cb 01       	movw	r24, r22
+    1164:	00 c0       	rjmp	.+0      	; 0x1166 <strrev>
+
+00001166 <strrev>:
+strrev():
+    1166:	dc 01       	movw	r26, r24
+    1168:	fc 01       	movw	r30, r24
+    116a:	67 2f       	mov	r22, r23
+    116c:	71 91       	ld	r23, Z+
+    116e:	77 23       	and	r23, r23
+    1170:	e1 f7       	brne	.-8      	; 0x116a <strrev+0x4>
+    1172:	32 97       	sbiw	r30, 0x02	; 2
+    1174:	04 c0       	rjmp	.+8      	; 0x117e <strrev+0x18>
+    1176:	7c 91       	ld	r23, X
+    1178:	6d 93       	st	X+, r22
+    117a:	70 83       	st	Z, r23
+    117c:	62 91       	ld	r22, -Z
+    117e:	ae 17       	cp	r26, r30
+    1180:	bf 07       	cpc	r27, r31
+    1182:	c8 f3       	brcs	.-14     	; 0x1176 <strrev+0x10>
+    1184:	08 95       	ret
+
+00001186 <__prologue_saves__>:
+__prologue_saves__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2169
+    1186:	2f 92       	push	r2
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2170
+    1188:	3f 92       	push	r3
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2171
+    118a:	4f 92       	push	r4
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2172
+    118c:	5f 92       	push	r5
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2173
+    118e:	6f 92       	push	r6
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2174
+    1190:	7f 92       	push	r7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2175
+    1192:	8f 92       	push	r8
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2176
+    1194:	9f 92       	push	r9
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2177
+    1196:	af 92       	push	r10
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2178
+    1198:	bf 92       	push	r11
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2179
+    119a:	cf 92       	push	r12
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2180
+    119c:	df 92       	push	r13
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2181
+    119e:	ef 92       	push	r14
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2182
+    11a0:	ff 92       	push	r15
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2183
+    11a2:	0f 93       	push	r16
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2184
+    11a4:	1f 93       	push	r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2185
+    11a6:	cf 93       	push	r28
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2186
+    11a8:	df 93       	push	r29
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2200
+    11aa:	cd b7       	in	r28, 0x3d	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2201
+    11ac:	de b7       	in	r29, 0x3e	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2202
+    11ae:	ca 1b       	sub	r28, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2203
+    11b0:	db 0b       	sbc	r29, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2204
+    11b2:	0f b6       	in	r0, 0x3f	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2205
+    11b4:	f8 94       	cli
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2206
+    11b6:	de bf       	out	0x3e, r29	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2207
+    11b8:	0f be       	out	0x3f, r0	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2208
+    11ba:	cd bf       	out	0x3d, r28	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2211
+    11bc:	09 94       	ijmp
+
+000011be <__epilogue_restores__>:
+__epilogue_restores__():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2222
+    11be:	2a 88       	ldd	r2, Y+18	; 0x12
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2223
+    11c0:	39 88       	ldd	r3, Y+17	; 0x11
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2224
+    11c2:	48 88       	ldd	r4, Y+16	; 0x10
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2225
+    11c4:	5f 84       	ldd	r5, Y+15	; 0x0f
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2226
+    11c6:	6e 84       	ldd	r6, Y+14	; 0x0e
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2227
+    11c8:	7d 84       	ldd	r7, Y+13	; 0x0d
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2228
+    11ca:	8c 84       	ldd	r8, Y+12	; 0x0c
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2229
+    11cc:	9b 84       	ldd	r9, Y+11	; 0x0b
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2230
+    11ce:	aa 84       	ldd	r10, Y+10	; 0x0a
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2231
+    11d0:	b9 84       	ldd	r11, Y+9	; 0x09
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2232
+    11d2:	c8 84       	ldd	r12, Y+8	; 0x08
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2233
+    11d4:	df 80       	ldd	r13, Y+7	; 0x07
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2234
+    11d6:	ee 80       	ldd	r14, Y+6	; 0x06
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2235
+    11d8:	fd 80       	ldd	r15, Y+5	; 0x05
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2236
+    11da:	0c 81       	ldd	r16, Y+4	; 0x04
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2237
+    11dc:	1b 81       	ldd	r17, Y+3	; 0x03
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2238
+    11de:	aa 81       	ldd	r26, Y+2	; 0x02
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2252
+    11e0:	b9 81       	ldd	r27, Y+1	; 0x01
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2253
+    11e2:	ce 0f       	add	r28, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2254
+    11e4:	d1 1d       	adc	r29, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2255
+    11e6:	0f b6       	in	r0, 0x3f	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2256
+    11e8:	f8 94       	cli
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2257
+    11ea:	de bf       	out	0x3e, r29	; 62
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2258
+    11ec:	0f be       	out	0x3f, r0	; 63
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2259
+    11ee:	cd bf       	out	0x3d, r28	; 61
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2260
+    11f0:	ed 01       	movw	r28, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2263
+    11f2:	08 95       	ret
+
+000011f4 <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+    11f4:	f8 94       	cli
+
+000011f6 <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+    11f6:	ff cf       	rjmp	.-2      	; 0x11f6 <__stop_program>
