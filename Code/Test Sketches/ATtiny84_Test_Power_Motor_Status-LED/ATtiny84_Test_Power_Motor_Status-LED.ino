@@ -18,29 +18,15 @@ void loop() {
   Serial.println("Begin Digital Status led Sequence");
 
   digitalWrite(statusLED, HIGH);
-  delay(5000);
+  delay(1000);
   digitalWrite(statusLED, LOW);
-
+  delay(1000);
 
   Serial.println("Begin Analog/PWM Status led Sequence");
-
-  analogWrite(statusLED, 10);
-  delay(250);
-  analogWrite(statusLED, 20);
-  delay(250);
-  analogWrite(statusLED, 40);
-  delay(250);
-  analogWrite(statusLED, 80);
-  delay(250);
-  analogWrite(statusLED, 120);
-  delay(250);
-  analogWrite(statusLED, 160);
-  delay(250);
-  analogWrite(statusLED, 200);
-  delay(250);
+  
+  analogWrite(statusLED, 127);
+  delay(1500);
   analogWrite(statusLED, 255);
-  delay(250);
-  analogWrite(statusLED, 0);
   delay(1500);
 
 }
