@@ -1,11 +1,13 @@
 #include <INA.h>
 
 #define hbridgeENA 23
-#define hbridgeENB 22
-#define hbridgeIN1 21
-#define hbridgeIN2 19
-#define hbridgeIN3 18
-#define hbridgeIN4 17
+#define hbridgeENB 19
+#define hbridgeIN1 18
+#define hbridgeIN2 5
+#define hbridgeIN3 17
+#define hbridgeIN4 16
+
+int n = 0; //for counting loops
 
 const uint32_t SERIAL_SPEED{
     115200}; ///< Use fast serial speed
@@ -107,7 +109,6 @@ void motorControl(int motorSelect, bool driveDirection, int speed)
 void loop()
 {
   // put your main code here, to run repeatedly:
-  int n = 0;
   if (n < 4)
   {
     switch (n)
@@ -160,7 +161,7 @@ void loop()
     Serial.print(sprintfBuffer);
   } // for-next each INA device loop
   Serial.println();
-  delay(10000); // Wait 10 seconds before next reading
+  delay(1000); // Wait 1 seconds before next reading
   Serial.print(F("Loop iteration "));
   Serial.print(++loopCounter);
   Serial.print(F("\n\n"));
