@@ -7,7 +7,7 @@
 #define hbridgeIN3 17
 #define hbridgeIN4 16
 
-int n = 0; //for counting loops
+int n = 0; // for counting loops
 
 const uint32_t SERIAL_SPEED{
     115200}; ///< Use fast serial speed
@@ -109,7 +109,7 @@ void motorControl(int motorSelect, bool driveDirection, int speed)
 void loop()
 {
   // put your main code here, to run repeatedly:
-  if (n < 4)
+  if (n < 5)
   {
     switch (n)
     {
@@ -134,14 +134,11 @@ void loop()
       motorControl(1, 0, 0);
       break;
     }
-    if (n == 4)
-    {
-      n = 0;
-    }
-    else
-    {
-      n++;
-    }
+    n++;
+  }
+  else
+  {
+    n = 0;
   }
 
   static uint16_t loopCounter = 0;                                     // Count the number of iterations
