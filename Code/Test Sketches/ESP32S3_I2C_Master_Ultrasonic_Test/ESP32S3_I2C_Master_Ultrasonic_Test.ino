@@ -21,7 +21,7 @@ void loop() {
 
   if (currentMillis - lastMillis >= delayMS) {
     lastMillis = currentMillis;
-    Wire.requestFrom(8, 11);  // request 6 bytes from slave device #8
+    Wire.requestFrom(8, 11);  // request 11 bytes from slave device #8
     Serial.println("Message Sent");
   }
 
@@ -29,13 +29,14 @@ void loop() {
   int i = 0;
   while (Wire.available()) {  // slave may send less than requested
     buffer[i] = Wire.read();  // receive a byte as character
+    Serial.print(buffer[i]);
     i++;
 
     testFlag = true;
   }
 
   if (testFlag) {
-
+    Serial.println("");
     Serial.print("Buffer: ");
     Serial.println(buffer);
 
