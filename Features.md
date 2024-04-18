@@ -1,7 +1,7 @@
 # robotMower_TM24
 Robot lawn mower project for school.
 
-# Components
+# Possible components
 
 |Component|Feature|Digital IO|Analog IO|Multiply|
 |---------|-------|----------|---------|--------|
