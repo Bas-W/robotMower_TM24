@@ -31,15 +31,15 @@ Robot lawn mower project for school.
 - [ ] Easily Controllable Interface (lcd/oled etc)
 - [ ] Main Power switch
 - [ ] Rain Detection
-- [ ] Current Measuring for wheels
-- [ ] Current Measuring for Blade
-- [ ] Internal 5V Regulation
-- [ ] Internal 3V3 Regulation
+- [x] Current Measuring for wheels
+- [x] Current Measuring for Blade
+- [x] Internal 5V Regulation
+- [x] Internal 3V3 Regulation
 - [ ] Time Control
-- [ ] Custom PCB
+- [x] Custom PCB
 - [ ] Small Formfactor
-- [ ] Power cutoff relay to take away power to motors / emergency stop button (in case of rogue robot event) 
-- [ ] USB-connector for programming & monitoring (USB-B / USB-C)
+- [x] Power cutoff relay to take away power to motors / emergency stop button (in case of rogue robot event) 
+- [x] USB-connector for programming & monitoring (USB-B / USB-C)
 - [ ] Temperature sensors for motors (expansion)
 - [ ] Temperature sensors for motor drivers (expansion)
 - [ ] Power supply -> 3S/4S LiPo pack ?
@@ -47,10 +47,10 @@ Robot lawn mower project for school.
 - [ ] Battery Percentage Readout
 - [ ] GPS (u-blox module) (expansion)
 - [ ] Extra I-O for expansions
-- [ ] Screw terminals or JST
+- [x] Screw terminals or JST
 - [ ] Tilt sensor/switches 
 - [ ] Perimeter wire (expansion)
-- [ ] Seperate boards - connected via [5v,3v3,I²C]bus
+- [x] Seperate boards - connected via [5v,3v3,I²C]bus
   - MCU
   - Power
   - Sensors
