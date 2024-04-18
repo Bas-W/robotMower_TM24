@@ -1,33 +1,24 @@
 void displayHomescreen() {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("RobotMower");
+  lcd.print("RobotMower  V1.0");
   lcd.setCursor(0, 1);
-  lcd.print("V1.0.0");
+  lcd.print("Nick & Bas");
+  lcd.setCursor(12, 1);
+  lcd.print("2024");
 }
 
 void displayMenu1() {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Sonar Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Button Test");
-}
-
-void displayMenu2() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Button Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Engine Test");
-}
-
-void displayMenu3() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Current Test");
+  lcd.print("Motor Test");
+  if (motorTest) {
+    lcd.setCursor(14, 0);
+    lcd.print("ON");
+  } else {
+    lcd.setCursor(13, 0);
+    lcd.print("OFF");
+  }
 }
 
 void displayCurrentTest(int sensorIndex, float currentSensorReading[3][4]) {
@@ -58,55 +49,11 @@ void displayCurrentTest(int sensorIndex, float currentSensorReading[3][4]) {
   lcd.print("W");
 }
 
-void displayEngineTestLeftForward() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Left Motor F");
-}
-
-void displayEngineTestLeftReverse() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Left Motor R");
-}
-
-void displayEngineTestRightForward() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Right Motor F");
-}
-
-void displayEngineTestRightReverse() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("Right Motor R");
-}
-
-void displayEngineTestForward() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("2 Motor F");
-}
-
-void displayEngineTestReverse() {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Engine Test");
-  lcd.setCursor(0, 1);
-  lcd.print("2 Motor R");
-}
-
-void displaySonarTest(int lValue, int mValue, int rValue) {
+void displaySonarTest(String lValue, String mValue, String rValue) {
+  objectDetectionRequest();
+  lValue = leftValue;
+  mValue = middleValue;
+  rValue = rightValue;
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("  L    M    R  ");
