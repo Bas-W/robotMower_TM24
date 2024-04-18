@@ -29,7 +29,7 @@ Het MCU-board is de brains van de Robot Mower. Hier worden alle signalen van de 
 
 Aangezien er eerst voorzien was om een custom H-brug te maken en deze via I²C te verbinden waren er geen connecties voorzien om de originele H-brug te gebruiken. Er zijn echter nog wat extra IO-pins voorzien voor uitbreidingen, deze pins konden we dus gebruiken om de H-brug rechtstreeks aan te sturen met de ESP.
 
-Alle communicatie tussen de mcu en de andere componenten zoals powerboard, hc-sr04 ultrasonic sensors, etc. wordt mogelijk gemaakt door een I²C bus. Deze bus laat ons toe om zowel berichten te ontvangen als te sturen naar bepaalde devices. De bus-connector bevat zowel een 5V als 3V3 pin om het gebruik van verschillende sensoren mogelijk te maken. Deze bus wordt dus ook gebruikt om de externe modules van stroom te voorzien.
+Alle communicatie tussen de mcu en de andere componenten zoals powerboard, hc-sr04 ultrasonic sensors, etc. wordt mogelijk gemaakt door een I²C bus. Deze bus laat ons toe om zowel berichten te ontvangen als te sturen naar geconnecteerde devices. De bus-connector bevat zowel een 5V als 3V3 pin om het gebruik van verschillende sensoren mogelijk te maken. Deze bus wordt dus ook gebruikt om de externe modules van stroom te voorzien.
 De SCL en SDA lijnen van deze bus hebben zoals het hoort een pullup naar 3V3. Verbindt deze lijnen **NOOIT** met 5V, want dan zal de esp32 kortgesloten worden. Aangezien I²C werkt met een pulldown om een digitale 1 door te sturen, is dit geen probleem zolang de devices op de bus een digitale 1 lezen op een lager voltage dan 3V3.
 
 Dit board bevat ook een USB-B connector. Deze wordt gebruikt voor het uploaden van nieuwe programmas naar de ESP32 en om gebruik te maken van de seriële monitor.
