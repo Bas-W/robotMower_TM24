@@ -13,7 +13,7 @@
 #define WIRE Wire
 
 void setup() {
-  Wire.begin();
+  Wire.begin(9, 8);
 
   Serial.begin(9600);
   while (!Serial)
