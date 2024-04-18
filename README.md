@@ -26,3 +26,4 @@ A list of used components and modules will be made when the design is finalized.
 |Current Sensor, Bat in|01000010 = 0x42|
 |Current Sensor, 5V|01000011 = 0x43|
 |Current Sensor, 3V3|01000100 = 0x44|
+|Attiny, Ultrasone Sensors|00001000 = 0x8|
