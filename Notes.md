@@ -7,7 +7,7 @@ Voor dit project maakten we zelf een H-brug om de motors aan te sturen.
 Deze H-brug is opgesteld uit MOSFETs en zou aangestuurd worden via een Attiny die op een I²C-bus aangesloten is.
 
 Bij het ontwerpen van de H-brug koos ik echter voor de foute soort MOSFET's voor de high-side switches. Ik gebruik hiervoor NPN-MOSFET's i.p.v. PNP-MOSFET's.
-Het ontwerp werkte om de motors aan te sturen maar ik kon niet genoeg spanning doorlaten omdat de gate-spanning op de high-side MOSFET's niet hoog genoeg was. (5V i.p.v. groter als 12V).
+Het ontwerp werkte om de motors aan te sturen maar ik kon niet genoeg spanning doorlaten omdat de gate-spanning op de high-side MOSFET's niet hoog genoeg was. (5V i.p.v. groter dan 12V).
 We kozen ervoor om een pre-made H-brug te gebruiken maar het zou wel handig geweest zijn om onze eigen module te gebruiken.
 Op de motor driver staan ook twee IC's om het stroomverbruik en de spanning te meten voor elke motor.
 
