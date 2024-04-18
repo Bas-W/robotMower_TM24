@@ -10,10 +10,12 @@ A list of features can be found under [<b>*/Features*</b>](/Features.md)
 
 # Schematics, PCB
 Schematics, along with footprints, can be found under [<b>*/Schematics*</b>](/Schematics).
-These are designed in Eagle.
+These are designed in Fusion 360/Eagle, original Fusion/eagle Schematic, board and library files can be found under [***/Schematics/RoborMower_TM24/***](/Schematics/RoborMower_TM24/)
 
 # Code
-Code can be found under [<b>*/Code*</b>](/Code).
+Code can be found under [***/Code***](/Code).
+The final code for the ESP32 can be found under [***/Code/Final_V1.0***](/Code/Final_V1.0.0/).
+The final code for the Attiny that read the HC-SR04 sensor can be fount under [***/Code/Test Sketches/ATtiny84_I2C-Slave-Ultrasonic_Test/***](/Code/Test%20Sketches/ATtiny84_I2C-Slave-Ultrasonic_Test/).
 
 # Harware
 A list of used components and modules will be made when the design is finalized.
