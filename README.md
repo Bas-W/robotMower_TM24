@@ -1,6 +1,10 @@
 # robotMower_TM24
 Robot lawn mower project for school.
 
+# Notes
+Some notes including the lessons we learned and the mistakes we found in our work can be found under [<b>*/Notes*</b>](/Notes.md)
+This contains some important information for anyone who wants to expand this project, **Please read this document**.
+
 # Features
 A list of features can be found under [<b>*/Features*</b>](/Features.md)
 
