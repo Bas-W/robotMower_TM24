@@ -38,10 +38,7 @@ int powerMenuCursor = 0;
 int refreshRate = 200;
 int lastMillis = 0;
 
-
 #include "motorDriver.h"
-
-
 
 void setup() {
   Serial.begin(9600);
