@@ -13,7 +13,7 @@ Connect the ESP32 Dev Module's EN pin to GND.
 
 ### USB
 Or you can use the USB-B jack to connect straight to your laptop.
-Don't forget to enable *USB CDC On Boot* in the tools menu.
+Don't forget to enable ***USB CDC On Boot*** in the tools menu.
 
 ## Programming ESP32S3
 Board: ESP32S3 Dev Module
@@ -22,4 +22,4 @@ Board: ESP32S3 Dev Module
 2. Press and Release the EN/Reset Button.
 3. Release the Boot Button.
 
-Upload the program to the ESP32 Dev Module and the ESP32S3 will be programmed.
+Upload the program to the ESP32 Dev Module and after the upload is compleet, press the reset button once more so that the ESP32S3 will be reset.
